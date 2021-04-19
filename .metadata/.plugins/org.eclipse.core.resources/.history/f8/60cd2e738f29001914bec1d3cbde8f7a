@@ -1,0 +1,28 @@
+program test301
+
+const int n = 5;
+
+int prom;
+
+int prom1_;
+
+int prom1_p;
+
+char c;
+
+bool x;
+
+enum z { Y = 1 } 
+
+{
+	void main() {
+		prom1_p = 1 + 1;
+		prom1_p = 1 - 1;
+		prom1_p = 1 * 1;
+		c = 'a';
+		x = true;
+		niz = new int[1];
+		print(x);
+		read(x);
+	}
+}

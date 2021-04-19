@@ -1,0 +1,39 @@
+program test301
+enum ENUM1 { x = 1, y = 2}
+enum ENUM2 { p = 5, q = 10 }
+const int jedan = 1;
+int g_i;
+char g_c;
+bool g_b;
+{
+
+
+	void main()
+	int l_nizi[];
+	char l_nizch[];
+	bool l_nizb[];
+	ENUM1 l_nize1[];
+	ENUM2 l_nize2[];
+	{
+		g_b = true;
+		
+		print(g_b);
+		
+		
+		g_c = 'a';
+		print(g_c);
+		
+		//read(g_c);
+		//print(g_c);
+		
+		l_nize1 = new ENUM1[1];
+		l_nize1[0] = ENUM1.x;
+		
+		print(l_nize1[0]);
+		
+		l_nize2 = new ENUM2[1];
+		l_nize2[0] = ENUM2.p;
+		
+		print(l_nize2[0]);
+	}
+}

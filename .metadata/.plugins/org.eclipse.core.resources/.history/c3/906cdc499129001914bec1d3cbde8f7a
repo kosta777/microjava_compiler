@@ -1,0 +1,12 @@
+program test301
+
+const int n;
+char c;
+
+{
+	void main()
+	{
+		b = n;
+		print(c);
+	}
+}

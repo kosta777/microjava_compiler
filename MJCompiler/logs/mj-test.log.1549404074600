@@ -1,0 +1,10 @@
+INFO  23:00:39,362 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program3.mj
+INFO  23:00:39,397 - =========================SEMANTICKA OBRADA============================
+INFO  23:00:39,398 - Pretraga na  9(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:39,398 - Pretraga na  10(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:39,398 - Pretraga na  11(a), nadjeno Var a: Arr of int, 0, 0 
+ERROR 23:00:39,398 - Greska(12) Promenljiva ne postoji.
+INFO  23:00:39,398 - Pretraga na  12(c), nadjeno Var noObj: notype, -1, -1 
+ERROR 23:00:39,398 - Greska(12) Neslaganje tipova prilikom operacije inkrementiranja.
+INFO  23:00:39,398 - Pretraga na  13(a), nadjeno Var a: Arr of int, 0, 0 
+ERROR 23:00:39,398 - =========================GRESKA PRI PARSIRANJU============================

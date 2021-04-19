@@ -1,0 +1,65 @@
+package rs.ac.bg.etf.pp1;
+
+public class sym 
+{
+	// Keywords
+	public static final int PROG = 1;
+	public static final int BREAK = 2;
+	public static final int CLASS = 3;
+	public static final int INTERFACE = 4;
+	public static final int ENUM = 5;
+	public static final int ELSE = 6;
+	public static final int CONST = 7;
+	public static final int IF = 8;
+	public static final int NEW = 9;
+	public static final int PRINT = 10;
+	public static final int READ = 11;
+	public static final int VOID = 12;
+	public static final int FOR = 13;
+	public static final int EXTENDS = 14;
+	public static final int CONTINUE = 15;
+	public static final int RETURN = 16;
+	
+	// Identifiers
+	public static final int IDENT = 17;
+	public static final int LETTER = 18;
+	public static final int DIGIT = 19;
+	public static final int UNDERSCORE = 20;
+	public static final int NUMCONST = 21;
+	public static final int CHARCONST = 22;
+	public static final int BOOLCONST = 23;
+	public static final int BOOLTRUE = 24;
+	public static final int BOOLFALSE = 25;
+	// Constants
+	
+	// Operators
+	public static final int PLUS = 26;
+	public static final int MINUS = 27;
+	public static final int MUL = 28;
+	public static final int DIV = 29;
+	public static final int MOD = 30;
+	public static final int EQUALDOUBLE = 31;
+	public static final int NOTEQUAL = 32;
+	public static final int GREATER = 33;
+	public static final int GREATEROREQUAL = 34;
+	public static final int LESS = 35;
+	public static final int LESSOREQUAL = 35;
+	public static final int ANDAND = 36;
+	public static final int OROR = 37;
+	public static final int EQUAL = 38;
+	public static final int PLUSPLUS = 39;
+	public static final int MINUSMINUS = 40;
+	public static final int SEMICOLON = 41;
+	public static final int COMMA = 42;
+	public static final int DOT = 43;
+	public static final int LPAREN = 44;
+	public static final int RPAREN = 45;
+	public static final int LBRACE = 46;
+	public static final int RBRACE = 47;
+	public static final int LSQRBRAC = 48;
+	public static final int RSQRBRAC = 49;
+	
+	public static final int EOF =50;
+	
+	
+}

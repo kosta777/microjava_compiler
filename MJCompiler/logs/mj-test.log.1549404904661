@@ -1,0 +1,40 @@
+INFO  23:14:50,390 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program4.mj
+INFO  23:14:50,425 - =========================SEMANTICKA OBRADA============================
+INFO  23:14:50,426 - Pretraga na  18(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,426 - Pretraga na  19(l_nizch), nadjeno Var l_nizch: Arr of char, 1, 1 
+INFO  23:14:50,426 - Pretraga na  20(l_nizb), nadjeno Var l_nizb: Arr of , 2, 1 
+INFO  23:14:50,426 - Pretraga na  22(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:14:50,426 - Pretraga na  23(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,426 - Pretraga na  23(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:14:50,426 - Pretraga na  25(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,426 - Pretraga na  27(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,426 - Pretraga na  28(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  29(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  30(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  31(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  32(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  33(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  35(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  36(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:14:50,427 - Pretraga na  38(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:14:50,427 - Pretraga na  40(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:14:50,427 - Pretraga na  42(g_b), nadjeno Var g_b: bool, 2, 0 
+ERROR 23:14:50,427 - Greska(42) Read komanda zahteva drugi tip.
+INFO  23:14:50,427 - Pretraga na  43(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:14:50,427 - Pretraga na  45(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:50,427 - Pretraga na  46(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:50,427 - Pretraga na  48(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:50,427 - Pretraga na  49(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:50,427 - Pretraga na  51(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 23:14:50,427 - Greska(51) Nije pronadnjen tip E1 u tabeli simbola.
+ERROR 23:14:50,427 - Greska(51) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  23:14:50,427 - Pretraga na  52(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 23:14:50,427 - Greska(52) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  23:14:50,428 - Pretraga na  54(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:14:50,428 - Pretraga na  56(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:14:50,428 - Greska(56) Nije pronadnjen tip E2 u tabeli simbola.
+ERROR 23:14:50,429 - Greska(56) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  23:14:50,429 - Pretraga na  57(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:14:50,429 - Greska(57) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  23:14:50,429 - Pretraga na  59(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:14:50,429 - =========================GRESKA PRI PARSIRANJU============================

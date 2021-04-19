@@ -1,0 +1,53 @@
+INFO  22:35:27,378 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:35:27,404 - #2 program
+INFO  22:35:27,404 - #46 test301
+INFO  22:35:27,404 - #46 int
+INFO  22:35:27,405 - #46 a
+INFO  22:35:27,405 - #44 [
+INFO  22:35:27,405 - #45 ]
+INFO  22:35:27,406 - #37 ;
+INFO  22:35:27,406 - #46 int
+INFO  22:35:27,406 - #46 b
+INFO  22:35:27,406 - #37 ;
+INFO  22:35:27,406 - #42 {
+INFO  22:35:27,406 - #13 void
+INFO  22:35:27,406 - #46 main
+INFO  22:35:27,406 - #40 (
+INFO  22:35:27,407 - #41 )
+INFO  22:35:27,407 - #42 {
+INFO  22:35:27,407 - #46 a
+INFO  22:35:27,407 - #34 =
+INFO  22:35:27,408 - #10 new
+INFO  22:35:27,408 - #46 int
+INFO  22:35:27,408 - #44 [
+INFO  22:35:27,408 - #18 5
+INFO  22:35:27,408 - #45 ]
+INFO  22:35:27,410 - #37 ;
+INFO  22:35:27,410 - #12 read
+INFO  22:35:27,410 - #40 (
+INFO  22:35:27,410 - #46 a
+INFO  22:35:27,410 - #44 [
+INFO  22:35:27,411 - #18 0
+INFO  22:35:27,411 - #45 ]
+INFO  22:35:27,411 - #41 )
+INFO  22:35:27,411 - #37 ;
+INFO  22:35:27,411 - #11 print
+INFO  22:35:27,412 - #40 (
+INFO  22:35:27,412 - #46 a
+INFO  22:35:27,412 - #44 [
+INFO  22:35:27,412 - #18 0
+INFO  22:35:27,412 - #45 ]
+INFO  22:35:27,412 - #41 )
+INFO  22:35:27,412 - #37 ;
+INFO  22:35:27,412 - #43 }
+INFO  22:35:27,412 - #43 }
+INFO  22:35:27,417 - =========================SEMANTICKA OBRADA============================
+INFO  22:35:27,417 - Pretraga na  9(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:35:27,417 - Pretraga na  10(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:35:27,418 - Pretraga na  11(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:35:27,428 - =========================SINTAKSNA ANALIZA============================
+INFO  22:35:27,428 - Global variables:    1
+INFO  22:35:27,428 - Global constants:    0
+INFO  22:35:27,428 - Global arrays:    1
+INFO  22:35:27,428 - Locals in main:    0
+INFO  22:35:27,428 - Statements in main:    3

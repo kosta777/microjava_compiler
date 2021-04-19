@@ -1,0 +1,326 @@
+package rs.ac.bg.etf.pp1;
+
+import org.apache.log4j.Logger;
+
+
+import rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter;
+import rs.ac.bg.etf.pp1.CounterVisitor.VarCounter;
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.mj.runtime.Code;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.Obj;
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+public class CodeGenerator extends VisitorAdaptor 
+{	
+	
+	Obj currentEnum = Tab.noObj;
+	Logger log = Logger.getLogger(getClass());
+	private int mainPc;
+	
+	public int getMainPc()
+	{
+		return mainPc;
+	}
+	
+	public void report_error(String message, SyntaxNode info) {
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0: info.getLine();
+		if (line != 0)
+			msg.append (" na liniji ").append(line);
+		log.error(msg.toString());
+	}
+	
+	public void report_info(String message, SyntaxNode info) {
+		StringBuilder msg = new StringBuilder(message); 
+		int line = (info == null) ? 0: info.getLine();
+		if (line != 0)
+			msg.append (" na liniji ").append(line);
+		log.info(msg.toString());
+	}
+	
+	public void visit(StmntPrint printStmt)
+	{
+		if(printStmt.getExpr().struct == Tab.intType)
+		{
+			Code.loadConst(5);
+			Code.put(Code.print);
+		}
+		else if(printStmt.getExpr().struct == Tab.charType)
+		{
+			Code.loadConst(1);
+			Code.put(Code.bprint);
+		}
+	}
+	
+	public void visit(StmntRead readStmt)
+	{
+		if(readStmt.getDesignator().obj.getType() == Tab.intType)
+		{
+			Code.put(Code.read);
+		}
+		else
+		{
+			Code.put(Code.bread);
+		}
+		Code.store(readStmt.getDesignator().obj);
+	}
+	
+	/*
+	public void visit(StmtPrintDesignator printStmt)
+	{
+		if(printStmt.getDesignator().obj.getType() == Tab.intType)
+		{
+			Code.loadConst(5);
+			Code.put(Code.print);
+		}
+		else if(printStmt.getDesignator().obj.getType() == Tab.charType)
+		{
+			Code.loadConst(1);
+			Code.put(Code.bprint);
+		}
+		else
+		{
+			Code.put(Code.aload);
+			Code.loadConst(5);
+			Code.put(Code.print);
+		}
+	}
+	*/
+	public void visit(ConstantNum cnst){
+		Obj con = Tab.find(cnst.getConstName());
+		for(Obj local: Tab.currentScope.getLocals().symbols())
+		{
+			report_info("local = "+local.getName(), null);
+		}
+		report_info("loading const "+con.getName(), null);
+		Code.load(con);
+	}
+	
+	public void visit(ConstantChar cnst){
+		Obj con = Tab.find(cnst.getConstName());
+		
+		Code.load(con);
+	}
+	
+	public void visit(ConstantBool cnst){
+		Obj con = Tab.find(cnst.getConstName());
+		
+		Code.load(con);
+	}
+	
+	public void visit(FactorNumConst cnst)
+	{
+		Obj con = Tab.insert(Obj.Con, "$", cnst.struct);
+		con.setLevel(0);
+		con.setAdr(cnst.getVal());
+		
+		Code.load(con);
+		report_info("NUMConst na stack", null);
+	}
+	
+	public void visit(FactorCharConst cnst)
+	{
+		Obj con = Tab.insert(Obj.Con, "$", cnst.struct);
+		con.setLevel(0);
+		con.setAdr(cnst.getVal());
+		
+		Code.load(con);
+	}
+	
+	public void visit(FactorBoolConst cnst)
+	{
+		Obj con = Tab.insert(Obj.Con, "$", cnst.struct);
+		con.setLevel(0);
+		con.setAdr(cnst.getVal().equals("true") ? 1 : 0);
+		
+		Code.load(con);
+	}
+	
+	public void visit(DesignatorIdentDot designator)
+	{
+		/*
+		Tab.currentScope.getLocals().symbols();
+		Obj currentEnum = Tab.find(designator.getTypeName());
+		report_info(currentEnum.getName()+" found in code gen", null);
+		for(Obj local: Tab.currentScope.getLocals().symbols())
+		{
+			report_info("local = "+local.getName(), null);
+		}
+		//report_info("localcnt = "+Tab.currentScope.getLocals()., null);
+    	Obj child = Tab.noObj;
+    	for(Obj childObj : currentEnum.getLocalSymbols())
+    	{
+    		if(childObj.getName().equals(designator.getName()))
+    		{
+    			child = childObj;
+    		}
+    	}
+    	
+		Obj con = Tab.insert(Obj.Con, "$", Tab.intType);
+		con.setLevel(0);
+		report_info(child.getName()+" found in code gen with value "+child.getAdr(), null);
+		con.setAdr(child.getAdr());
+		Code.load(con);
+		*/
+		Code.load(designator.obj);
+	}
+	
+	public void visit(MethodVoidWithName method)
+	{
+		if("main".equalsIgnoreCase(method.getMethName()))
+		{
+			mainPc = Code.pc;
+		}
+		method.obj.setAdr(Code.pc);
+		
+		//collect arg and var cnt
+		
+		SyntaxNode methodNode = method.getParent();
+		
+		VarCounter varCnt = new VarCounter();
+		methodNode.traverseTopDown(varCnt);
+		
+		FormParamCounter fpCnt = new FormParamCounter();
+		methodNode.traverseTopDown(fpCnt);
+		
+		// Generate the entry
+		Code.put(Code.enter);
+		Code.put(fpCnt.getCount());
+		Code.put(fpCnt.getCount() + varCnt.getCount());
+	}
+	
+	public void visit(MethodTypeWithName method)
+	{
+		if("main".equalsIgnoreCase(method.getMethName()))
+		{
+			mainPc = Code.pc;
+		}
+		method.obj.setAdr(Code.pc);
+		
+		//collect arg and var cnt
+		
+		SyntaxNode methodNode = method.getParent();
+		
+		VarCounter varCnt = new VarCounter();
+		methodNode.traverseTopDown(varCnt);
+		
+		FormParamCounter fpCnt = new FormParamCounter();
+		methodNode.traverseTopDown(fpCnt);
+		
+		// Generate the entry
+		Code.put(Code.enter);
+		Code.put(fpCnt.getCount());
+		Code.put(fpCnt.getCount() + varCnt.getCount());
+	}
+	
+	public void visit(MethodDeclaration methodDecl){
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	public void visit(MethodDeclarationNoPars methodDecl){
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	public void visit(DesignatorStatementAssign stmt)
+	{
+		if(stmt.getDesignator().obj.getType().getKind() != (Struct.Array))
+			Code.store(stmt.getDesignator().obj);
+		else
+		{
+			//array
+			Code.put(Code.dup_x1);
+			Code.put(Code.astore);
+		}
+	}
+	
+	public void visit(DesignatorBasic designator)
+	{
+		Code.load(designator.obj);
+		report_info("Designator na stack", null);
+	}	
+	
+	public void visit(DesignatorIdentArrayStart designator)
+	{
+		Code.load(designator.obj);
+		report_info("Designator array start namestanje", null);
+	}
+	
+	public void visit(DesignatorIdentArray designator)
+	{
+		Code.put(Code.aload);
+		report_info("Designator array na desnoj strani smestanje", null);
+	}
+	
+	public void visit(ExprListAddopAdd addop)
+	{
+		Code.put(Code.add);
+		//report_info("ADD na stack", null);
+	}
+	
+	public void visit(ExprListAddopSub addop)
+	{
+		Code.put(Code.sub);
+	}
+	
+	public void visit(TermListMulopMul mulop)
+	{
+		Code.put(Code.mul);
+		//report_info("ADD na stack", null);
+	}
+	
+	public void visit(TermListMulopDiv mulop)
+	{
+		Code.put(Code.div);
+		//report_info("ADD na stack", null);
+	}
+	
+	public void visit(TermListMulopMod mulop)
+	{
+		//Code.put(Code.mul);
+		//report_info("ADD na stack", null);
+	}
+	
+	public void visit(DesignatorStatementPlusPlus stmt)
+	{
+		Obj con = Tab.insert(Obj.Con, "$", Tab.intType);
+		con.setLevel(0);
+		con.setAdr(1);
+		
+		Code.load(con);
+		Code.put(Code.add);
+		Code.store(stmt.getDesignator().obj);
+	}
+	
+	public void visit(DesignatorStatementMinusMinus stmt)
+	{
+		Obj con = Tab.insert(Obj.Con, "$", Tab.intType);
+		con.setLevel(0);
+		con.setAdr(1);
+		
+		Code.load(con);
+		Code.put(Code.sub);
+		Code.store(stmt.getDesignator().obj);
+	}
+	
+	public void visit(TermNeg term)
+	{
+		Code.put(Code.neg);
+	}
+	
+	public void visit(FactorArrayInit factor)
+	{
+		Code.put(Code.newarray);
+		if(factor.getType().equals(Tab.charType))
+			Code.put(0);
+		else
+			Code.put(1);
+	}
+	
+	public void visit(DesignatorArrayInit designator)
+	{
+		Code.store(designator.getDesignator().obj);
+	}
+}

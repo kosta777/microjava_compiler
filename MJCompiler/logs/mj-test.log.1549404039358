@@ -1,0 +1,16 @@
+INFO  23:00:12,146 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program2.mj
+INFO  23:00:12,179 - =========================SEMANTICKA OBRADA============================
+INFO  23:00:12,180 - Pretraga na  9(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  10(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  11(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  12(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  14(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  14(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  14(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,180 - Pretraga na  14(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  23:00:12,183 - =========================SINTAKSNA ANALIZA============================
+INFO  23:00:12,183 - Global variables:    1
+INFO  23:00:12,183 - Global constants:    0
+INFO  23:00:12,183 - Global arrays:    1
+INFO  23:00:12,183 - Locals in main:    0
+INFO  23:00:12,183 - Statements in main:    5

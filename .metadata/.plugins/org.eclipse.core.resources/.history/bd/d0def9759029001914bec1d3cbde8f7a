@@ -1,0 +1,146 @@
+INFO  20:56:52,011 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  20:56:52,038 - #2 program
+INFO  20:56:52,038 - #46 test301
+INFO  20:56:52,039 - #6 enum
+INFO  20:56:52,039 - #46 Broj
+INFO  20:56:52,039 - #42 {
+INFO  20:56:52,040 - #46 NULA
+INFO  20:56:52,040 - #38 ,
+INFO  20:56:52,040 - #46 JEDAN
+INFO  20:56:52,040 - #38 ,
+INFO  20:56:52,040 - #46 PET
+INFO  20:56:52,040 - #34 =
+INFO  20:56:52,040 - #18 5
+INFO  20:56:52,040 - #38 ,
+INFO  20:56:52,040 - #46 DESET
+INFO  20:56:52,041 - #34 =
+INFO  20:56:52,041 - #18 10
+INFO  20:56:52,041 - #43 }
+INFO  20:56:52,041 - #8 const
+INFO  20:56:52,041 - #46 int
+INFO  20:56:52,041 - #46 jedan
+INFO  20:56:52,041 - #34 =
+INFO  20:56:52,042 - #18 1
+INFO  20:56:52,042 - #37 ;
+INFO  20:56:52,042 - #8 const
+INFO  20:56:52,042 - #46 int
+INFO  20:56:52,042 - #46 pet
+INFO  20:56:52,042 - #34 =
+INFO  20:56:52,042 - #18 5
+INFO  20:56:52,042 - #37 ;
+INFO  20:56:52,042 - #46 int
+INFO  20:56:52,042 - #46 niz
+INFO  20:56:52,042 - #44 [
+INFO  20:56:52,042 - #45 ]
+INFO  20:56:52,042 - #37 ;
+INFO  20:56:52,043 - #46 char
+INFO  20:56:52,043 - #46 nizch
+INFO  20:56:52,043 - #44 [
+INFO  20:56:52,043 - #45 ]
+INFO  20:56:52,043 - #37 ;
+INFO  20:56:52,043 - #46 int
+INFO  20:56:52,043 - #46 ni2z
+INFO  20:56:52,043 - #37 ;
+INFO  20:56:52,043 - #42 {
+INFO  20:56:52,043 - #13 void
+INFO  20:56:52,043 - #46 main
+INFO  20:56:52,043 - #40 (
+INFO  20:56:52,043 - #41 )
+INFO  20:56:52,043 - #46 int
+INFO  20:56:52,044 - #46 bodovi
+INFO  20:56:52,044 - #37 ;
+INFO  20:56:52,044 - #46 Broj
+INFO  20:56:52,044 - #46 nula
+INFO  20:56:52,044 - #38 ,
+INFO  20:56:52,044 - #46 jedan
+INFO  20:56:52,044 - #37 ;
+INFO  20:56:52,044 - #42 {
+INFO  20:56:52,045 - #46 nula
+INFO  20:56:52,045 - #34 =
+INFO  20:56:52,045 - #46 Broj
+INFO  20:56:52,045 - #39 .
+INFO  20:56:52,045 - #46 NULA
+INFO  20:56:52,045 - #37 ;
+INFO  20:56:52,047 - #46 jedan
+INFO  20:56:52,048 - #34 =
+INFO  20:56:52,048 - #46 Broj
+INFO  20:56:52,048 - #39 .
+INFO  20:56:52,048 - #46 JEDAN
+INFO  20:56:52,048 - #37 ;
+INFO  20:56:52,049 - #46 nizch
+INFO  20:56:52,049 - #34 =
+INFO  20:56:52,049 - #10 new
+INFO  20:56:52,049 - #46 char
+INFO  20:56:52,049 - #44 [
+INFO  20:56:52,049 - #18 3
+INFO  20:56:52,049 - #45 ]
+INFO  20:56:52,049 - #37 ;
+INFO  20:56:52,050 - #46 nizch
+INFO  20:56:52,050 - #44 [
+INFO  20:56:52,050 - #18 0
+INFO  20:56:52,051 - #45 ]
+INFO  20:56:52,051 - #34 =
+INFO  20:56:52,051 - #19 a
+INFO  20:56:52,051 - #37 ;
+INFO  20:56:52,051 - #46 nizch
+INFO  20:56:52,052 - #44 [
+INFO  20:56:52,052 - #46 jedan
+INFO  20:56:52,052 - #45 ]
+INFO  20:56:52,052 - #34 =
+INFO  20:56:52,052 - #19 b
+INFO  20:56:52,052 - #37 ;
+INFO  20:56:52,052 - #46 nizch
+INFO  20:56:52,052 - #44 [
+INFO  20:56:52,052 - #46 pet
+INFO  20:56:52,052 - #22 -
+INFO  20:56:52,052 - #18 3
+INFO  20:56:52,052 - #45 ]
+INFO  20:56:52,052 - #34 =
+INFO  20:56:52,052 - #19 c
+INFO  20:56:52,052 - #37 ;
+INFO  20:56:52,052 - #11 print
+INFO  20:56:52,053 - #40 (
+INFO  20:56:52,053 - #46 nizch
+INFO  20:56:52,053 - #44 [
+INFO  20:56:52,053 - #18 2
+INFO  20:56:52,053 - #22 -
+INFO  20:56:52,053 - #18 1
+INFO  20:56:52,053 - #45 ]
+INFO  20:56:52,053 - #41 )
+INFO  20:56:52,053 - #37 ;
+INFO  20:56:52,053 - #11 print
+INFO  20:56:52,053 - #40 (
+INFO  20:56:52,053 - #46 nizch
+INFO  20:56:52,053 - #44 [
+INFO  20:56:52,053 - #46 jedan
+INFO  20:56:52,053 - #23 *
+INFO  20:56:52,053 - #18 2
+INFO  20:56:52,053 - #45 ]
+INFO  20:56:52,053 - #41 )
+INFO  20:56:52,053 - #37 ;
+INFO  20:56:52,053 - #11 print
+INFO  20:56:52,053 - #40 (
+INFO  20:56:52,054 - #46 bodovi
+INFO  20:56:52,054 - #41 )
+INFO  20:56:52,054 - #37 ;
+INFO  20:56:52,054 - #43 }
+INFO  20:56:52,054 - #43 }
+INFO  20:56:52,058 - =========================SEMANTICKA OBRADA============================
+INFO  20:56:52,059 - Pretraga na  17(nula), nadjeno Var nula: enum, 1, 1 
+INFO  20:56:52,060 - Pretraga na  18(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  20:56:52,060 - Pretraga na  20(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,060 - Pretraga na  21(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,060 - Pretraga na  22(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,060 - Pretraga na  22(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  20:56:52,060 - Pretraga na  23(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,060 - Pretraga na  23(pet), nadjeno Con pet: int, 5, 0 
+INFO  20:56:52,061 - Pretraga na  24(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,061 - Pretraga na  25(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:56:52,061 - Pretraga na  25(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  20:56:52,061 - Pretraga na  27(bodovi), nadjeno Var bodovi: int, 0, 1 
+INFO  20:56:52,065 - =========================SINTAKSNA ANALIZA============================
+INFO  20:56:52,065 - Global variables:    1
+INFO  20:56:52,065 - Global constants:    2
+INFO  20:56:52,065 - Global arrays:    2
+INFO  20:56:52,065 - Locals in main:    3
+INFO  20:56:52,066 - Statements in main:    9

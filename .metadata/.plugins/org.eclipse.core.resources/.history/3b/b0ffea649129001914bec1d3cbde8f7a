@@ -1,0 +1,16 @@
+program test301
+
+
+int a[];
+int b;
+{
+	void main()	
+	{
+		a = new int[3];
+		a[0] = 0;
+		a[1] = 1;
+		a[2] = 2;
+	}
+}
+
+

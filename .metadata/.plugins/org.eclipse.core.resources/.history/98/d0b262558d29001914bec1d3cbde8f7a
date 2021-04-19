@@ -1,0 +1,14 @@
+program test301
+
+
+int a[];
+int b;
+{
+	void main()	
+	{
+		a = new int[5];
+		print(a[0]);
+	}
+}
+
+

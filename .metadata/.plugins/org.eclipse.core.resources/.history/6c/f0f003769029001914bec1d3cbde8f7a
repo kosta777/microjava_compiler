@@ -1,0 +1,258 @@
+INFO  21:09:13,233 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  21:09:13,257 - #2 program
+INFO  21:09:13,257 - #46 MJProgram
+INFO  21:09:13,257 - #46 int
+INFO  21:09:13,258 - #46 x
+INFO  21:09:13,259 - #38 ,
+INFO  21:09:13,259 - #46 y
+INFO  21:09:13,259 - #37 ;
+INFO  21:09:13,259 - #46 bool
+INFO  21:09:13,260 - #46 p
+INFO  21:09:13,260 - #37 ;
+INFO  21:09:13,260 - #46 char
+INFO  21:09:13,260 - #46 c
+INFO  21:09:13,260 - #37 ;
+INFO  21:09:13,260 - #8 const
+INFO  21:09:13,260 - #46 int
+INFO  21:09:13,260 - #46 a
+INFO  21:09:13,260 - #34 =
+INFO  21:09:13,260 - #18 5
+INFO  21:09:13,260 - #37 ;
+INFO  21:09:13,261 - #8 const
+INFO  21:09:13,261 - #46 char
+INFO  21:09:13,261 - #46 f
+INFO  21:09:13,261 - #34 =
+INFO  21:09:13,261 - #19 y
+INFO  21:09:13,261 - #37 ;
+INFO  21:09:13,261 - #8 const
+INFO  21:09:13,261 - #46 bool
+INFO  21:09:13,261 - #46 b
+INFO  21:09:13,261 - #34 =
+INFO  21:09:13,261 - #20 true
+INFO  21:09:13,261 - #37 ;
+INFO  21:09:13,262 - #42 {
+INFO  21:09:13,262 - #13 void
+INFO  21:09:13,262 - #46 main
+INFO  21:09:13,262 - #40 (
+INFO  21:09:13,262 - #41 )
+INFO  21:09:13,262 - #46 bool
+INFO  21:09:13,263 - #46 ff
+INFO  21:09:13,263 - #34 =
+ERROR 21:09:13,263 - 
+Sintaksna greska na liniji 11
+INFO  21:09:13,263 - #20 false
+INFO  21:09:13,263 - #37 ;
+INFO  21:09:13,263 - #42 {
+INFO  21:09:13,263 - #46 p
+INFO  21:09:13,263 - #34 =
+ERROR 21:09:13,264 - Izvrsen oporavak do ; u liniji 11
+INFO  21:09:13,264 - #20 true
+INFO  21:09:13,264 - #37 ;
+INFO  21:09:13,265 - #46 c
+INFO  21:09:13,265 - #34 =
+INFO  21:09:13,265 - #19 v
+INFO  21:09:13,265 - #37 ;
+INFO  21:09:13,265 - #11 print
+INFO  21:09:13,265 - #40 (
+INFO  21:09:13,265 - #18 1
+INFO  21:09:13,266 - #41 )
+INFO  21:09:13,266 - #37 ;
+INFO  21:09:13,266 - #11 print
+INFO  21:09:13,266 - #40 (
+INFO  21:09:13,266 - #18 2
+INFO  21:09:13,266 - #41 )
+INFO  21:09:13,266 - #37 ;
+INFO  21:09:13,266 - #43 }
+INFO  21:09:13,266 - #43 }
+INFO  21:09:13,268 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              DeclarationVar(
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarListObjFirst(
+                    VarListObjSecond(
+                      Variable(
+                       x
+                      ) [Variable]
+                    ) [VarListObjSecond]
+                    Variable(
+                     y
+                    ) [Variable]
+                  ) [VarListObjFirst]
+                ) [VarDeclaration]
+              ) [DeclarationVar]
+            ) [Declarations]
+            DeclarationVar(
+              VarDeclaration(
+                Type(
+                 bool
+                ) [Type]
+                VarListObjSecond(
+                  Variable(
+                   p
+                  ) [Variable]
+                ) [VarListObjSecond]
+              ) [VarDeclaration]
+            ) [DeclarationVar]
+          ) [Declarations]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarListObjSecond(
+                Variable(
+                 c
+                ) [Variable]
+              ) [VarListObjSecond]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [Declarations]
+        DeclarationConst(
+          ConstDeclObj(
+            Type(
+             int
+            ) [Type]
+            ConstListDerived1(
+              ConstantNum(
+               a
+               5
+              ) [ConstantNum]
+            ) [ConstListDerived1]
+          ) [ConstDeclObj]
+        ) [DeclarationConst]
+      ) [Declarations]
+      DeclarationConst(
+        ConstDeclObj(
+          Type(
+           char
+          ) [Type]
+          ConstListDerived1(
+            ConstantChar(
+             f
+             y
+            ) [ConstantChar]
+          ) [ConstListDerived1]
+        ) [ConstDeclObj]
+      ) [DeclarationConst]
+    ) [Declarations]
+    DeclarationConst(
+      ConstDeclObj(
+        Type(
+         bool
+        ) [Type]
+        ConstListDerived1(
+          ConstantBool(
+           b
+           true
+          ) [ConstantBool]
+        ) [ConstListDerived1]
+      ) [ConstDeclObj]
+    ) [DeclarationConst]
+  ) [Declarations]
+  MethodDeclListDerived1(
+    MethodDeclDerived1(
+      MethodTypeDerived2(
+      ) [MethodTypeDerived2]
+     main
+      FormParsListDerived2(
+      ) [FormParsListDerived2]
+      VarDeclListDerived1(
+        VarDeclListDerived2(
+        ) [VarDeclListDerived2]
+        ErrorVarDeclComma1(
+        ) [ErrorVarDeclComma1]
+      ) [VarDeclListDerived1]
+      StatementListDerived2(
+        StatementListDerived2(
+          StatementListDerived2(
+            StatementListDerived1(
+              StmntDegisnator(
+                DesignatorStatementDerived1(
+                  DesignatorIdent(
+                   p
+                  ) [DesignatorIdent]
+                  ExprDerived1(
+                    TermDerived1(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                      TermListDerived2(
+                      ) [TermListDerived2]
+                    ) [TermDerived1]
+                    ExprListDerived2(
+                    ) [ExprListDerived2]
+                  ) [ExprDerived1]
+                ) [DesignatorStatementDerived1]
+              ) [StmntDegisnator]
+            ) [StatementListDerived1]
+            StmntDegisnator(
+              DesignatorStatementDerived1(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                ExprDerived1(
+                  TermDerived1(
+                    FactorCharConst(
+                     v
+                    ) [FactorCharConst]
+                    TermListDerived2(
+                    ) [TermListDerived2]
+                  ) [TermDerived1]
+                  ExprListDerived2(
+                  ) [ExprListDerived2]
+                ) [ExprDerived1]
+              ) [DesignatorStatementDerived1]
+            ) [StmntDegisnator]
+          ) [StatementListDerived2]
+          StmntPrint(
+            ExprDerived1(
+              TermDerived1(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+                TermListDerived2(
+                ) [TermListDerived2]
+              ) [TermDerived1]
+              ExprListDerived2(
+              ) [ExprListDerived2]
+            ) [ExprDerived1]
+          ) [StmntPrint]
+        ) [StatementListDerived2]
+        StmntPrint(
+          ExprDerived1(
+            TermDerived1(
+              FactorNumConst(
+               2
+              ) [FactorNumConst]
+              TermListDerived2(
+              ) [TermListDerived2]
+            ) [TermDerived1]
+            ExprListDerived2(
+            ) [ExprListDerived2]
+          ) [ExprDerived1]
+        ) [StmntPrint]
+      ) [StatementListDerived2]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:09:13,269 - ===================================
+INFO  21:09:13,273 - Deklarisana promenljiva x tipa 1
+INFO  21:09:13,273 - Deklarisana promenljiva y tipa 1
+INFO  21:09:13,273 - Deklarisana promenljiva p tipa 5
+INFO  21:09:13,273 - Deklarisana promenljiva c tipa 2
+INFO  21:09:13,273 - Deklarisana konstanta a tipa 1 i vrednosti 5
+INFO  21:09:13,273 - Deklarisana konstanta f tipa 2 i vrednosti y
+INFO  21:09:13,273 - Deklarisana konstanta b tipa 5 i vrednosti 1

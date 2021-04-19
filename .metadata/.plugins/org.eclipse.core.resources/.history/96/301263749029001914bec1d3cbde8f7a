@@ -1,0 +1,260 @@
+INFO  21:23:50,176 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  21:23:50,202 - #2 program
+INFO  21:23:50,202 - #46 test301
+INFO  21:23:50,202 - #6 enum
+INFO  21:23:50,203 - #46 Broj
+INFO  21:23:50,203 - #42 {
+INFO  21:23:50,203 - #46 NULA
+INFO  21:23:50,204 - #38 ,
+INFO  21:23:50,204 - #46 JEDAN
+INFO  21:23:50,204 - #38 ,
+INFO  21:23:50,204 - #46 PET
+INFO  21:23:50,204 - #34 =
+INFO  21:23:50,204 - #18 5
+INFO  21:23:50,204 - #38 ,
+INFO  21:23:50,204 - #46 DESET
+INFO  21:23:50,204 - #34 =
+INFO  21:23:50,204 - #18 10
+INFO  21:23:50,204 - #43 }
+INFO  21:23:50,204 - #8 const
+INFO  21:23:50,205 - #46 int
+INFO  21:23:50,205 - #46 jedan
+INFO  21:23:50,205 - #34 =
+INFO  21:23:50,205 - #18 1
+INFO  21:23:50,205 - #37 ;
+INFO  21:23:50,205 - #8 const
+INFO  21:23:50,206 - #46 int
+INFO  21:23:50,206 - #46 pet
+INFO  21:23:50,206 - #34 =
+INFO  21:23:50,206 - #18 5
+INFO  21:23:50,206 - #37 ;
+INFO  21:23:50,206 - #46 char
+INFO  21:23:50,206 - #46 niz
+INFO  21:23:50,206 - #44 [
+INFO  21:23:50,206 - #45 ]
+INFO  21:23:50,206 - #37 ;
+INFO  21:23:50,206 - #46 char
+INFO  21:23:50,207 - #46 niz1
+INFO  21:23:50,207 - #44 [
+INFO  21:23:50,207 - #45 ]
+INFO  21:23:50,207 - #37 ;
+INFO  21:23:50,207 - #46 char
+INFO  21:23:50,207 - #46 niz2
+INFO  21:23:50,207 - #44 [
+INFO  21:23:50,207 - #45 ]
+INFO  21:23:50,207 - #37 ;
+INFO  21:23:50,207 - #46 int
+INFO  21:23:50,207 - #46 ni2z
+INFO  21:23:50,207 - #37 ;
+INFO  21:23:50,207 - #42 {
+INFO  21:23:50,207 - #13 void
+INFO  21:23:50,207 - #46 main
+INFO  21:23:50,207 - #40 (
+INFO  21:23:50,207 - #41 )
+INFO  21:23:50,207 - #46 int
+INFO  21:23:50,208 - #46 bodovi
+INFO  21:23:50,208 - #37 ;
+INFO  21:23:50,208 - #46 Broj
+INFO  21:23:50,208 - #46 nula
+INFO  21:23:50,208 - #38 ,
+INFO  21:23:50,208 - #46 jedan
+INFO  21:23:50,208 - #37 ;
+INFO  21:23:50,208 - #42 {
+INFO  21:23:50,208 - #46 niz2z
+INFO  21:23:50,208 - #34 =
+INFO  21:23:50,209 - #18 5
+INFO  21:23:50,209 - #37 ;
+INFO  21:23:50,210 - #43 }
+INFO  21:23:50,210 - #43 }
+INFO  21:23:50,211 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclarationEnum(
+                  EnumDeclarationIntroduction(
+                    EnumName(
+                     Broj
+                    ) [EnumName]
+                    EnumDeclarationList(
+                      EnumDeclarationList(
+                        EnumDeclarationList(
+                          EnumDeclarationListSingle(
+                            EnumDeclaration(
+                             NULA
+                            ) [EnumDeclaration]
+                          ) [EnumDeclarationListSingle]
+                          EnumDeclaration(
+                           JEDAN
+                          ) [EnumDeclaration]
+                        ) [EnumDeclarationList]
+                        EnumDeclarationWithValue(
+                         PET
+                         5
+                        ) [EnumDeclarationWithValue]
+                      ) [EnumDeclarationList]
+                      EnumDeclarationWithValue(
+                       DESET
+                       10
+                      ) [EnumDeclarationWithValue]
+                    ) [EnumDeclarationList]
+                  ) [EnumDeclarationIntroduction]
+                ) [DeclarationEnum]
+              ) [Declarations]
+              DeclarationConst(
+                ConstDeclObj(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstListDerived1(
+                    ConstantNum(
+                     jedan
+                     1
+                    ) [ConstantNum]
+                  ) [ConstListDerived1]
+                ) [ConstDeclObj]
+              ) [DeclarationConst]
+            ) [Declarations]
+            DeclarationConst(
+              ConstDeclObj(
+                Type(
+                 int
+                ) [Type]
+                ConstListDerived1(
+                  ConstantNum(
+                   pet
+                   5
+                  ) [ConstantNum]
+                ) [ConstListDerived1]
+              ) [ConstDeclObj]
+            ) [DeclarationConst]
+          ) [Declarations]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarListObjSecond(
+                VariableArray(
+                 niz
+                ) [VariableArray]
+              ) [VarListObjSecond]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [Declarations]
+        DeclarationVar(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            VarListObjSecond(
+              VariableArray(
+               niz1
+              ) [VariableArray]
+            ) [VarListObjSecond]
+          ) [VarDeclaration]
+        ) [DeclarationVar]
+      ) [Declarations]
+      DeclarationVar(
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarListObjSecond(
+            VariableArray(
+             niz2
+            ) [VariableArray]
+          ) [VarListObjSecond]
+        ) [VarDeclaration]
+      ) [DeclarationVar]
+    ) [Declarations]
+    DeclarationVar(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarListObjSecond(
+          Variable(
+           ni2z
+          ) [Variable]
+        ) [VarListObjSecond]
+      ) [VarDeclaration]
+    ) [DeclarationVar]
+  ) [Declarations]
+  MethodDeclListDerived1(
+    MethodDerived2(
+      MethodDeclarationNoPars(
+        MethodVoidWithName(
+         main
+        ) [MethodVoidWithName]
+        VarDeclListDerived1(
+          VarDeclListDerived1(
+            VarDeclListDerived2(
+            ) [VarDeclListDerived2]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarListObjSecond(
+                Variable(
+                 bodovi
+                ) [Variable]
+              ) [VarListObjSecond]
+            ) [VarDeclaration]
+          ) [VarDeclListDerived1]
+          VarDeclaration(
+            Type(
+             Broj
+            ) [Type]
+            VarListObjFirst(
+              VarListObjSecond(
+                Variable(
+                 nula
+                ) [Variable]
+              ) [VarListObjSecond]
+              Variable(
+               jedan
+              ) [Variable]
+            ) [VarListObjFirst]
+          ) [VarDeclaration]
+        ) [VarDeclListDerived1]
+        StatementSingle(
+          StmntDegisnator(
+            DesignatorStatementAssign(
+              DesignatorBasic(
+                DesignatorIdent(
+                 niz2z
+                ) [DesignatorIdent]
+              ) [DesignatorBasic]
+              ExprPlus(
+                Term(
+                  FactorNumConst(
+                   5
+                  ) [FactorNumConst]
+                  TermListNone(
+                  ) [TermListNone]
+                ) [Term]
+                ExprListNone(
+                ) [ExprListNone]
+              ) [ExprPlus]
+            ) [DesignatorStatementAssign]
+          ) [StmntDegisnator]
+        ) [StatementSingle]
+      ) [MethodDeclarationNoPars]
+    ) [MethodDerived2]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:23:50,212 - ===================================
+INFO  21:23:50,217 - =========================SEMANTICKA OBRADA============================
+ERROR 21:23:50,218 - Greska(18) Promenljiva ne postoji.
+INFO  21:23:50,218 - Pretraga na  18(niz2z), nadjeno Var noObj: notype, -1, -1 
+ERROR 21:23:50,218 - Greska(18) Neslaganje tipova prilikom dodele.
+ERROR 21:23:50,218 - =========================GRESKA PRI PARSIRANJU============================

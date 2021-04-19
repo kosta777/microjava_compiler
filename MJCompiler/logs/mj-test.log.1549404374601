@@ -1,0 +1,36 @@
+INFO  23:05:59,089 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program4.mj
+INFO  23:05:59,137 - =========================SEMANTICKA OBRADA============================
+INFO  23:05:59,138 - Pretraga na  18(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,138 - Pretraga na  19(l_nizch), nadjeno Var l_nizch: Arr of char, 1, 1 
+INFO  23:05:59,138 - Pretraga na  20(l_nizb), nadjeno Var l_nizb: Arr of , 2, 1 
+INFO  23:05:59,138 - Pretraga na  22(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:05:59,138 - Pretraga na  23(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,138 - Pretraga na  23(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:05:59,138 - Pretraga na  25(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,138 - Pretraga na  27(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  28(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  29(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  30(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  31(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  32(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  33(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  35(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  36(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:05:59,139 - Pretraga na  38(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:05:59,139 - Pretraga na  40(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:05:59,139 - Pretraga na  43(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:05:59,139 - Pretraga na  44(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:05:59,139 - Pretraga na  46(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:05:59,139 - Pretraga na  47(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:05:59,139 - Pretraga na  49(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:05:59,139 - Pretraga na  50(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:05:59,140 - Pretraga na  52(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:05:59,140 - Pretraga na  54(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:05:59,140 - Pretraga na  55(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:05:59,140 - Pretraga na  57(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:05:59,143 - =========================SINTAKSNA ANALIZA============================
+INFO  23:05:59,143 - Global variables:    3
+INFO  23:05:59,143 - Global constants:    1
+INFO  23:05:59,143 - Global arrays:    0
+INFO  23:05:59,143 - Locals in main:    5
+INFO  23:05:59,143 - Statements in main:    27

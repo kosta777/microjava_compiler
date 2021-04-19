@@ -1,0 +1,114 @@
+program test301
+enum ENUM1 { x = 1, y = 2}
+enum ENUM2 { p = 5, q = 10 }
+enum ENUM3 { w = 1, e = 0 }
+const int jedan = 1;
+int x;
+char c;
+bool b;
+{
+
+
+	int main(){
+	}
+	
+	int x()
+	ENUM1 e1;
+	ENUM2 e2;
+	
+	ENUM1 nize1[];
+	ENUM2 nize2[];
+	int nizi[];
+	char nizch[];
+	bool nizb[];
+	{
+		x = 'c';
+		x = true;
+		
+		c = true;
+		c = 1;
+		
+		b = 'c';
+		b = 1;
+		
+		nizi[1] = 'c';
+		nizi[1] = true;
+		
+		nizch[1] = true;
+		nizch[1] = 1;
+		
+		nizb[1] = 'c';
+		nizb[1] = 1;
+		
+		nizi = null;
+		nizi = null + 1;
+		nizi = nizch;
+		nizi = nizb;
+		
+				
+		nizch = null;
+		nizch = null + 1;
+		nizch = nizb;
+		nizch = nizi;
+		
+				
+		nizb = null;
+		nizb = null + 1;
+		nizb = nizch;
+		nizb = nizi;
+		
+		nize1 = null;
+		nize1 = nize2;
+		nize1 = nizb;
+		nize1[1] = 1;
+		nize1[1] = ENUM1.x;
+		nize1[1] = e1;
+		nize1[1] = e2;
+		
+		nize1[1] = e1 * e1;
+		
+		nizi = new int[1];
+		nizi = new char[jedan];
+		nizi = new bool[2];
+		nizi = new Broj[Broj.NULA];
+		x = new int[e1];
+		x = new ENUM[e2];
+		nizi=new int[1];
+		nizi[1]=new int[1];
+		nizi = new int[1+2];
+		nizch = new char[2];
+		nizb=new bool[2];
+		nize1 =new ENUM2[2];
+		nize1= new ENUM2[ENUM2.p];
+		nize1= new ENUM2[1];
+		nize1=new ENUM1[ENUM1.x];
+		nize1=new ENUM1[ENUM1.y];
+		nize1=new ENUM1[1];
+		nize1=new ENUM1[jedan];
+		nize1=new ENUM1[ENUM3.w];
+		
+		print(nizi);
+		print(ENUM1);
+		print(main);
+		print(new int[1]);
+		
+		read(nizi);
+		read(nizch);
+		read(ENUM1.x);
+		read(ENUM1);
+		return 'c';
+	}
+	
+	char y(){
+		return true;
+	}
+	
+	bool z(){
+		return 1;
+	}
+	
+	int p(){
+	}
+}
+
+

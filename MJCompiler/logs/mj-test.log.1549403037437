@@ -1,0 +1,70 @@
+INFO  22:43:45,269 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program1.mj
+INFO  22:43:45,296 - #2 program
+INFO  22:43:45,297 - #46 test301
+INFO  22:43:45,297 - #8 const
+INFO  22:43:45,297 - #46 int
+INFO  22:43:45,298 - #46 n
+INFO  22:43:45,298 - #37 ;
+ERROR 22:43:45,298 - 
+Sintaksna greska na liniji 3
+INFO  22:43:45,298 - #46 int
+INFO  22:43:45,298 - #46 prom
+INFO  22:43:45,298 - #37 ;
+ERROR 22:43:45,299 - Izvrsen oporavak do ; u liniji 3
+INFO  22:43:45,299 - #46 int
+INFO  22:43:45,300 - #46 prom1_
+INFO  22:43:45,300 - #37 ;
+INFO  22:43:45,300 - #46 int
+INFO  22:43:45,300 - #46 prom1
+INFO  22:43:45,300 - #37 ;
+INFO  22:43:45,300 - #46 int
+INFO  22:43:45,300 - #46 prom1_p
+INFO  22:43:45,300 - #37 ;
+INFO  22:43:45,300 - #46 char
+INFO  22:43:45,300 - #46 c
+INFO  22:43:45,300 - #37 ;
+INFO  22:43:45,300 - #42 {
+INFO  22:43:45,300 - #13 void
+INFO  22:43:45,300 - #46 main
+INFO  22:43:45,301 - #40 (
+INFO  22:43:45,301 - #41 )
+INFO  22:43:45,301 - #42 {
+INFO  22:43:45,301 - #46 prom1_p
+INFO  22:43:45,301 - #34 =
+INFO  22:43:45,301 - #18 1
+INFO  22:43:45,301 - #21 +
+INFO  22:43:45,302 - #18 1
+INFO  22:43:45,302 - #37 ;
+INFO  22:43:45,303 - #46 prom1_p
+INFO  22:43:45,303 - #34 =
+INFO  22:43:45,303 - #18 1
+INFO  22:43:45,303 - #22 -
+INFO  22:43:45,303 - #18 1
+INFO  22:43:45,303 - #37 ;
+INFO  22:43:45,303 - #46 prom1_p
+INFO  22:43:45,303 - #34 =
+INFO  22:43:45,303 - #18 1
+INFO  22:43:45,303 - #23 *
+INFO  22:43:45,303 - #18 1
+INFO  22:43:45,304 - #37 ;
+INFO  22:43:45,304 - #46 c
+INFO  22:43:45,304 - #34 =
+INFO  22:43:45,304 - #46 a
+INFO  22:43:45,304 - #37 ;
+INFO  22:43:45,304 - #46 c
+INFO  22:43:45,304 - #34 =
+INFO  22:43:45,304 - #19 a
+INFO  22:43:45,304 - #37 ;
+INFO  22:43:45,304 - #43 }
+INFO  22:43:45,304 - #43 }
+INFO  22:43:45,310 - =========================SEMANTICKA OBRADA============================
+ERROR 22:43:45,310 - Greska(0) Sintaksna greska.
+INFO  22:43:45,310 - Pretraga na  17(prom1_p), nadjeno Var prom1_p: int, 3, 0 
+INFO  22:43:45,310 - Pretraga na  18(prom1_p), nadjeno Var prom1_p: int, 3, 0 
+INFO  22:43:45,310 - Pretraga na  19(prom1_p), nadjeno Var prom1_p: int, 3, 0 
+INFO  22:43:45,310 - Pretraga na  20(c), nadjeno Var c: char, 4, 0 
+ERROR 22:43:45,311 - Greska(20) Promenljiva ne postoji.
+INFO  22:43:45,311 - Pretraga na  20(a), nadjeno Var noObj: notype, -1, -1 
+ERROR 22:43:45,311 - Greska(20) Neslaganje tipova prilikom dodele.
+INFO  22:43:45,311 - Pretraga na  21(c), nadjeno Var c: char, 4, 0 
+ERROR 22:43:45,311 - =========================GRESKA PRI PARSIRANJU============================

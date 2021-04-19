@@ -1,0 +1,28 @@
+INFO  22:06:27,077 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:06:27,107 - #2 program
+INFO  22:06:27,107 - #46 test301
+INFO  22:06:27,107 - #46 int
+INFO  22:06:27,108 - #46 a
+INFO  22:06:27,109 - #38 ,
+INFO  22:06:27,109 - #18 1
+ERROR 22:06:27,109 - 
+Sintaksna greska na liniji 4
+INFO  22:06:27,109 - #37 ;
+INFO  22:06:27,109 - #42 {
+INFO  22:06:27,109 - #13 void
+INFO  22:06:27,110 - #46 main
+INFO  22:06:27,110 - #40 (
+INFO  22:06:27,110 - #41 )
+INFO  22:06:27,110 - #42 {
+INFO  22:06:27,110 - #46 a
+INFO  22:06:27,110 - #34 =
+INFO  22:06:27,110 - #18 5
+INFO  22:06:27,110 - #37 ;
+INFO  22:06:27,110 - #11 print
+INFO  22:06:27,110 - #40 (
+INFO  22:06:27,110 - #46 a
+INFO  22:06:27,110 - #41 )
+INFO  22:06:27,111 - #37 ;
+INFO  22:06:27,111 - #43 }
+INFO  22:06:27,111 - #43 }
+ERROR 22:06:27,111 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

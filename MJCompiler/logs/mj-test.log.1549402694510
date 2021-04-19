@@ -1,0 +1,60 @@
+INFO  22:37:44,593 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:37:44,619 - #2 program
+INFO  22:37:44,619 - #46 test301
+INFO  22:37:44,619 - #46 int
+INFO  22:37:44,620 - #46 a
+INFO  22:37:44,620 - #44 [
+INFO  22:37:44,620 - #45 ]
+INFO  22:37:44,620 - #37 ;
+INFO  22:37:44,620 - #46 int
+INFO  22:37:44,621 - #46 b
+INFO  22:37:44,621 - #37 ;
+INFO  22:37:44,621 - #42 {
+INFO  22:37:44,621 - #13 void
+INFO  22:37:44,621 - #46 main
+INFO  22:37:44,621 - #40 (
+INFO  22:37:44,621 - #41 )
+INFO  22:37:44,622 - #42 {
+INFO  22:37:44,622 - #46 a
+INFO  22:37:44,622 - #34 =
+INFO  22:37:44,622 - #10 new
+INFO  22:37:44,623 - #46 int
+INFO  22:37:44,623 - #44 [
+INFO  22:37:44,623 - #18 5
+INFO  22:37:44,623 - #45 ]
+INFO  22:37:44,624 - #37 ;
+INFO  22:37:44,624 - #12 read
+INFO  22:37:44,625 - #40 (
+INFO  22:37:44,625 - #46 a
+INFO  22:37:44,625 - #44 [
+INFO  22:37:44,625 - #18 0
+INFO  22:37:44,625 - #45 ]
+INFO  22:37:44,625 - #41 )
+INFO  22:37:44,626 - #37 ;
+INFO  22:37:44,626 - #46 a
+INFO  22:37:44,626 - #44 [
+INFO  22:37:44,626 - #18 0
+INFO  22:37:44,626 - #45 ]
+INFO  22:37:44,626 - #35 ++
+INFO  22:37:44,626 - #37 ;
+INFO  22:37:44,626 - #11 print
+INFO  22:37:44,626 - #40 (
+INFO  22:37:44,626 - #46 a
+INFO  22:37:44,626 - #44 [
+INFO  22:37:44,627 - #18 0
+INFO  22:37:44,627 - #45 ]
+INFO  22:37:44,627 - #41 )
+INFO  22:37:44,627 - #37 ;
+INFO  22:37:44,627 - #43 }
+INFO  22:37:44,627 - #43 }
+INFO  22:37:44,633 - =========================SEMANTICKA OBRADA============================
+INFO  22:37:44,633 - Pretraga na  9(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:37:44,633 - Pretraga na  10(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:37:44,634 - Pretraga na  11(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:37:44,634 - Pretraga na  12(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:37:44,638 - =========================SINTAKSNA ANALIZA============================
+INFO  22:37:44,638 - Global variables:    1
+INFO  22:37:44,638 - Global constants:    0
+INFO  22:37:44,638 - Global arrays:    1
+INFO  22:37:44,638 - Locals in main:    0
+INFO  22:37:44,638 - Statements in main:    4

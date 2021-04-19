@@ -1,0 +1,97 @@
+INFO  22:45:37,993 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program2.mj
+INFO  22:45:38,021 - #2 program
+INFO  22:45:38,021 - #46 test301
+INFO  22:45:38,021 - #8 const
+INFO  22:45:38,022 - #46 int
+INFO  22:45:38,022 - #46 n
+INFO  22:45:38,022 - #34 =
+INFO  22:45:38,023 - #18 5
+INFO  22:45:38,023 - #37 ;
+INFO  22:45:38,023 - #46 int
+INFO  22:45:38,023 - #46 prom
+INFO  22:45:38,023 - #37 ;
+INFO  22:45:38,023 - #46 int
+INFO  22:45:38,023 - #46 prom1_
+INFO  22:45:38,023 - #37 ;
+INFO  22:45:38,023 - #46 int
+INFO  22:45:38,024 - #46 prom1_p
+INFO  22:45:38,024 - #37 ;
+INFO  22:45:38,024 - #46 char
+INFO  22:45:38,024 - #46 c
+INFO  22:45:38,024 - #37 ;
+INFO  22:45:38,024 - #46 bool
+INFO  22:45:38,024 - #46 x
+INFO  22:45:38,024 - #37 ;
+INFO  22:45:38,024 - #6 enum
+INFO  22:45:38,024 - #46 z
+INFO  22:45:38,024 - #42 {
+INFO  22:45:38,025 - #46 Y
+INFO  22:45:38,025 - #34 =
+INFO  22:45:38,025 - #18 1
+INFO  22:45:38,025 - #43 }
+INFO  22:45:38,025 - #42 {
+INFO  22:45:38,025 - #13 void
+INFO  22:45:38,025 - #46 main
+INFO  22:45:38,025 - #40 (
+INFO  22:45:38,025 - #41 )
+INFO  22:45:38,025 - #42 {
+INFO  22:45:38,026 - #46 prom1_p
+INFO  22:45:38,026 - #34 =
+INFO  22:45:38,026 - #18 1
+INFO  22:45:38,026 - #21 +
+INFO  22:45:38,027 - #18 1
+INFO  22:45:38,027 - #37 ;
+INFO  22:45:38,027 - #46 prom1_p
+INFO  22:45:38,027 - #34 =
+INFO  22:45:38,027 - #18 1
+INFO  22:45:38,028 - #22 -
+INFO  22:45:38,028 - #18 1
+INFO  22:45:38,028 - #37 ;
+INFO  22:45:38,028 - #46 prom1_p
+INFO  22:45:38,028 - #34 =
+INFO  22:45:38,028 - #18 1
+INFO  22:45:38,028 - #23 *
+INFO  22:45:38,028 - #18 1
+INFO  22:45:38,028 - #37 ;
+INFO  22:45:38,028 - #46 c
+INFO  22:45:38,028 - #34 =
+INFO  22:45:38,028 - #19 a
+INFO  22:45:38,028 - #37 ;
+INFO  22:45:38,029 - #46 x
+INFO  22:45:38,029 - #34 =
+INFO  22:45:38,029 - #20 true
+INFO  22:45:38,029 - #37 ;
+INFO  22:45:38,029 - #46 niz
+INFO  22:45:38,029 - #34 =
+INFO  22:45:38,029 - #10 new
+INFO  22:45:38,029 - #46 int
+INFO  22:45:38,029 - #44 [
+INFO  22:45:38,029 - #18 1
+INFO  22:45:38,029 - #45 ]
+INFO  22:45:38,029 - #37 ;
+INFO  22:45:38,030 - #11 print
+INFO  22:45:38,030 - #40 (
+INFO  22:45:38,030 - #46 x
+INFO  22:45:38,030 - #41 )
+INFO  22:45:38,030 - #37 ;
+INFO  22:45:38,030 - #12 read
+INFO  22:45:38,030 - #40 (
+INFO  22:45:38,030 - #46 x
+INFO  22:45:38,030 - #41 )
+INFO  22:45:38,030 - #37 ;
+INFO  22:45:38,030 - #43 }
+INFO  22:45:38,030 - #43 }
+INFO  22:45:38,036 - =========================SEMANTICKA OBRADA============================
+INFO  22:45:38,036 - Pretraga na  19(prom1_p), nadjeno Var prom1_p: int, 2, 0 
+INFO  22:45:38,036 - Pretraga na  20(prom1_p), nadjeno Var prom1_p: int, 2, 0 
+INFO  22:45:38,036 - Pretraga na  21(prom1_p), nadjeno Var prom1_p: int, 2, 0 
+INFO  22:45:38,037 - Pretraga na  22(c), nadjeno Var c: char, 3, 0 
+INFO  22:45:38,037 - Pretraga na  23(x), nadjeno Var x: bool, 4, 0 
+ERROR 22:45:38,037 - Greska(24) Promenljiva ne postoji.
+INFO  22:45:38,037 - Pretraga na  24(niz), nadjeno Var noObj: notype, -1, -1 
+ERROR 22:45:38,037 - Greska(24) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  22:45:38,037 - Pretraga na  25(x), nadjeno Var x: bool, 4, 0 
+ERROR 22:45:38,037 - Greska(25) Print komanda zahteva drugi tip.
+INFO  22:45:38,037 - Pretraga na  26(x), nadjeno Var x: bool, 4, 0 
+ERROR 22:45:38,037 - Greska(26) Read komanda zahteva drugi tip.
+ERROR 22:45:38,037 - =========================GRESKA PRI PARSIRANJU============================

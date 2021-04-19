@@ -1,0 +1,50 @@
+INFO  18:07:25,524 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  18:07:25,559 - #2 program
+INFO  18:07:25,560 - #46 MJProgram
+INFO  18:07:25,560 - #46 int
+INFO  18:07:25,560 - #46 x
+INFO  18:07:25,560 - #38 ,
+INFO  18:07:25,560 - #46 y
+INFO  18:07:25,560 - #37 ;
+INFO  18:07:25,561 - #46 bool
+INFO  18:07:25,561 - #46 p
+INFO  18:07:25,561 - #21 +
+ERROR 18:07:25,561 - 
+Sintaksna greska na liniji 3
+INFO  18:07:25,561 - #37 ;
+INFO  18:07:25,561 - #46 char
+INFO  18:07:25,561 - #46 c
+INFO  18:07:25,562 - #37 ;
+ERROR 18:07:25,562 - Izvrsen oporavak do ; u liniji 3
+INFO  18:07:25,562 - #42 {
+INFO  18:07:25,562 - #13 void
+INFO  18:07:25,562 - #46 main
+INFO  18:07:25,563 - #40 (
+INFO  18:07:25,563 - #41 )
+INFO  18:07:25,563 - #42 {
+INFO  18:07:25,563 - #46 p
+INFO  18:07:25,563 - #34 =
+INFO  18:07:25,563 - #21 +
+ERROR 18:07:25,563 - 
+Sintaksna greska na liniji 7
+INFO  18:07:25,563 - #22 -
+INFO  18:07:25,563 - #18 4
+INFO  18:07:25,564 - #20 true
+INFO  18:07:25,564 - #37 ;
+INFO  18:07:25,564 - #46 c
+INFO  18:07:25,564 - #34 =
+INFO  18:07:25,564 - #19 v
+INFO  18:07:25,564 - #37 ;
+INFO  18:07:25,564 - #11 print
+INFO  18:07:25,564 - #40 (
+INFO  18:07:25,564 - #18 1
+INFO  18:07:25,564 - #41 )
+INFO  18:07:25,564 - #37 ;
+INFO  18:07:25,564 - #11 print
+INFO  18:07:25,564 - #40 (
+INFO  18:07:25,564 - #18 2
+INFO  18:07:25,564 - #41 )
+INFO  18:07:25,564 - #37 ;
+INFO  18:07:25,564 - #43 }
+INFO  18:07:25,565 - #43 }
+ERROR 18:07:25,565 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

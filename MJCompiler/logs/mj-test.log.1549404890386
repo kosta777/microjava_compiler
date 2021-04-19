@@ -1,0 +1,18 @@
+INFO  23:14:27,906 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program4.mj
+INFO  23:14:27,945 - =========================SEMANTICKA OBRADA============================
+INFO  23:14:27,945 - Pretraga na  18(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:14:27,945 - Pretraga na  20(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:14:27,945 - Pretraga na  23(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:27,945 - Pretraga na  24(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:14:27,945 - Pretraga na  29(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:14:27,946 - Pretraga na  30(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:14:27,946 - Pretraga na  32(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:14:27,946 - Pretraga na  34(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:14:27,946 - Pretraga na  35(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:14:27,946 - Pretraga na  37(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+INFO  23:14:27,954 - =========================SINTAKSNA ANALIZA============================
+INFO  23:14:27,954 - Global variables:    3
+INFO  23:14:27,954 - Global constants:    1
+INFO  23:14:27,954 - Global arrays:    0
+INFO  23:14:27,954 - Locals in main:    5
+INFO  23:14:27,954 - Statements in main:    10

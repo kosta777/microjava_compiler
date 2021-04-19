@@ -1,0 +1,82 @@
+INFO  22:24:38,766 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:24:38,792 - #2 program
+INFO  22:24:38,792 - #46 test301
+INFO  22:24:38,792 - #46 int
+INFO  22:24:38,793 - #46 a
+INFO  22:24:38,793 - #44 [
+INFO  22:24:38,793 - #45 ]
+INFO  22:24:38,794 - #37 ;
+INFO  22:24:38,794 - #46 int
+INFO  22:24:38,794 - #46 b
+INFO  22:24:38,794 - #37 ;
+INFO  22:24:38,794 - #42 {
+INFO  22:24:38,794 - #13 void
+INFO  22:24:38,794 - #46 main
+INFO  22:24:38,794 - #40 (
+INFO  22:24:38,794 - #41 )
+INFO  22:24:38,794 - #42 {
+INFO  22:24:38,795 - #46 a
+INFO  22:24:38,795 - #34 =
+INFO  22:24:38,795 - #10 new
+INFO  22:24:38,795 - #46 int
+INFO  22:24:38,795 - #44 [
+INFO  22:24:38,795 - #18 5
+INFO  22:24:38,796 - #45 ]
+INFO  22:24:38,797 - #37 ;
+INFO  22:24:38,797 - #46 a
+INFO  22:24:38,797 - #44 [
+INFO  22:24:38,797 - #18 0
+INFO  22:24:38,798 - #45 ]
+INFO  22:24:38,798 - #34 =
+INFO  22:24:38,798 - #18 5
+INFO  22:24:38,798 - #37 ;
+INFO  22:24:38,799 - #11 print
+INFO  22:24:38,799 - #40 (
+INFO  22:24:38,799 - #46 a
+INFO  22:24:38,799 - #44 [
+INFO  22:24:38,799 - #18 0
+INFO  22:24:38,799 - #45 ]
+INFO  22:24:38,799 - #41 )
+INFO  22:24:38,799 - #37 ;
+INFO  22:24:38,799 - #12 read
+INFO  22:24:38,800 - #40 (
+INFO  22:24:38,800 - #46 b
+INFO  22:24:38,800 - #41 )
+INFO  22:24:38,800 - #37 ;
+INFO  22:24:38,800 - #12 read
+INFO  22:24:38,800 - #40 (
+INFO  22:24:38,800 - #46 a
+INFO  22:24:38,800 - #44 [
+INFO  22:24:38,800 - #18 0
+INFO  22:24:38,800 - #45 ]
+INFO  22:24:38,800 - #41 )
+INFO  22:24:38,800 - #37 ;
+INFO  22:24:38,800 - #11 print
+INFO  22:24:38,800 - #40 (
+INFO  22:24:38,800 - #46 b
+INFO  22:24:38,800 - #41 )
+INFO  22:24:38,800 - #37 ;
+INFO  22:24:38,800 - #11 print
+INFO  22:24:38,800 - #40 (
+INFO  22:24:38,801 - #46 a
+INFO  22:24:38,801 - #44 [
+INFO  22:24:38,801 - #18 0
+INFO  22:24:38,801 - #45 ]
+INFO  22:24:38,801 - #41 )
+INFO  22:24:38,801 - #37 ;
+INFO  22:24:38,801 - #43 }
+INFO  22:24:38,801 - #43 }
+INFO  22:24:38,806 - =========================SEMANTICKA OBRADA============================
+INFO  22:24:38,807 - Pretraga na  9(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:24:38,807 - Pretraga na  10(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:24:38,807 - Pretraga na  11(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:24:38,807 - Pretraga na  12(b), nadjeno Var b: int, 1, 0 
+INFO  22:24:38,807 - Pretraga na  13(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:24:38,807 - Pretraga na  15(b), nadjeno Var b: int, 1, 0 
+INFO  22:24:38,807 - Pretraga na  16(a), nadjeno Var a: Arr of int, 0, 0 
+INFO  22:24:38,811 - =========================SINTAKSNA ANALIZA============================
+INFO  22:24:38,811 - Global variables:    1
+INFO  22:24:38,811 - Global constants:    0
+INFO  22:24:38,811 - Global arrays:    1
+INFO  22:24:38,811 - Locals in main:    0
+INFO  22:24:38,811 - Statements in main:    7

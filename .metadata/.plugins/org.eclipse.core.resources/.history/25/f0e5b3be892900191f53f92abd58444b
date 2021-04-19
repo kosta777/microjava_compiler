@@ -1,0 +1,14 @@
+program test301
+
+
+int 1;
+	
+{
+	void main()	
+	{
+		a = 5;
+		print(a);
+	}
+}
+
+

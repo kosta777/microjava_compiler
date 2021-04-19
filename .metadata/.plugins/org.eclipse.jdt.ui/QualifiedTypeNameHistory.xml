@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VarDeclList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ConstantNum"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.EnumDeclarationWithValue"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorIdentDot"/>
+<fullyQualifiedTypeName name="sun.tools.tree.AddExpression"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorNumConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorCharConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorBoolConst"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FactorExprInBrackets"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.VisitorAdaptor"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Obj"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.FormPars"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.VarCounter"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CounterVisitor.FormParamCounter"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodDeclaration"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodDeclarationNoPars"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodTypeName"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.MethodTypeWithName"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorStatementAssign"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.StmtPrintDesignator"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorIdent"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.Guard.Result"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.DesignatorArrayInit"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.Tab"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.mj.runtime.Code"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.CodeGenerator"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.ErrorVarDeclSEMI"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.ast.StatementError"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.visitors.DumpSymbolTableVisitor"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.KostaDumpTableVisitor"/>
+<fullyQualifiedTypeName name="rs.ac.bg.etf.pp1.SemanticAnalyzer"/>
+<fullyQualifiedTypeName name="rs.etf.pp1.symboltable.concepts.Struct"/>
+</qualifiedTypeNameHistroy>

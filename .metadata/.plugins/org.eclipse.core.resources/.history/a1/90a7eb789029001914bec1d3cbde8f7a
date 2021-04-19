@@ -1,0 +1,199 @@
+INFO  20:47:23,679 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  20:47:23,703 - #2 program
+INFO  20:47:23,703 - #46 MJProgram
+INFO  20:47:23,703 - #46 int
+INFO  20:47:23,706 - #46 x
+INFO  20:47:23,706 - #38 ,
+INFO  20:47:23,707 - #46 y
+INFO  20:47:23,707 - #37 ;
+INFO  20:47:23,707 - #46 bool
+INFO  20:47:23,707 - #46 p
+INFO  20:47:23,707 - #37 ;
+INFO  20:47:23,707 - #46 char
+INFO  20:47:23,707 - #46 c
+INFO  20:47:23,707 - #37 ;
+INFO  20:47:23,707 - #8 const
+INFO  20:47:23,708 - #46 int
+INFO  20:47:23,708 - #46 a
+INFO  20:47:23,708 - #34 =
+INFO  20:47:23,708 - #18 5
+INFO  20:47:23,708 - #37 ;
+INFO  20:47:23,709 - #42 {
+INFO  20:47:23,709 - #13 void
+INFO  20:47:23,709 - #46 main
+INFO  20:47:23,709 - #40 (
+INFO  20:47:23,709 - #41 )
+INFO  20:47:23,710 - #42 {
+INFO  20:47:23,710 - #46 p
+INFO  20:47:23,710 - #34 =
+INFO  20:47:23,710 - #20 true
+INFO  20:47:23,710 - #37 ;
+INFO  20:47:23,711 - #46 c
+INFO  20:47:23,711 - #34 =
+INFO  20:47:23,712 - #19 v
+INFO  20:47:23,712 - #37 ;
+INFO  20:47:23,712 - #11 print
+INFO  20:47:23,713 - #40 (
+INFO  20:47:23,713 - #18 1
+INFO  20:47:23,713 - #41 )
+INFO  20:47:23,713 - #37 ;
+INFO  20:47:23,713 - #11 print
+INFO  20:47:23,713 - #40 (
+INFO  20:47:23,713 - #18 2
+INFO  20:47:23,713 - #41 )
+INFO  20:47:23,713 - #37 ;
+INFO  20:47:23,713 - #43 }
+INFO  20:47:23,713 - #43 }
+INFO  20:47:23,714 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarListObjFirst(
+                VarListObjSecond(
+                  Variable(
+                   x
+                  ) [Variable]
+                ) [VarListObjSecond]
+                Variable(
+                 y
+                ) [Variable]
+              ) [VarListObjFirst]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [Declarations]
+        DeclarationVar(
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarListObjSecond(
+              Variable(
+               p
+              ) [Variable]
+            ) [VarListObjSecond]
+          ) [VarDeclaration]
+        ) [DeclarationVar]
+      ) [Declarations]
+      DeclarationVar(
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarListObjSecond(
+            Variable(
+             c
+            ) [Variable]
+          ) [VarListObjSecond]
+        ) [VarDeclaration]
+      ) [DeclarationVar]
+    ) [Declarations]
+    DeclarationConst(
+      ConstDeclObj(
+        Type(
+         int
+        ) [Type]
+        ConstListDerived1(
+          Constant(
+           a
+            ConstValDerived1(
+            ) [ConstValDerived1]
+          ) [Constant]
+        ) [ConstListDerived1]
+      ) [ConstDeclObj]
+    ) [DeclarationConst]
+  ) [Declarations]
+  MethodDeclListDerived1(
+    MethodDeclDerived1(
+      MethodTypeDerived2(
+      ) [MethodTypeDerived2]
+     main
+      FormParsListDerived2(
+      ) [FormParsListDerived2]
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+      StatementListDerived2(
+        StatementListDerived2(
+          StatementListDerived2(
+            StatementListDerived1(
+              StmntDegisnator(
+                DesignatorStatementDerived1(
+                  DesignatorIdent(
+                   p
+                  ) [DesignatorIdent]
+                  ExprDerived1(
+                    TermDerived1(
+                      FactorDerived4(
+                      ) [FactorDerived4]
+                      TermListDerived2(
+                      ) [TermListDerived2]
+                    ) [TermDerived1]
+                    ExprListDerived2(
+                    ) [ExprListDerived2]
+                  ) [ExprDerived1]
+                ) [DesignatorStatementDerived1]
+              ) [StmntDegisnator]
+            ) [StatementListDerived1]
+            StmntDegisnator(
+              DesignatorStatementDerived1(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                ExprDerived1(
+                  TermDerived1(
+                    FactorDerived2(
+                    ) [FactorDerived2]
+                    TermListDerived2(
+                    ) [TermListDerived2]
+                  ) [TermDerived1]
+                  ExprListDerived2(
+                  ) [ExprListDerived2]
+                ) [ExprDerived1]
+              ) [DesignatorStatementDerived1]
+            ) [StmntDegisnator]
+          ) [StatementListDerived2]
+          StmntPrint(
+            ExprDerived1(
+              TermDerived1(
+                FactorDerived1(
+                ) [FactorDerived1]
+                TermListDerived2(
+                ) [TermListDerived2]
+              ) [TermDerived1]
+              ExprListDerived2(
+              ) [ExprListDerived2]
+            ) [ExprDerived1]
+          ) [StmntPrint]
+        ) [StatementListDerived2]
+        StmntPrint(
+          ExprDerived1(
+            TermDerived1(
+              FactorDerived1(
+              ) [FactorDerived1]
+              TermListDerived2(
+              ) [TermListDerived2]
+            ) [TermDerived1]
+            ExprListDerived2(
+            ) [ExprListDerived2]
+          ) [ExprDerived1]
+        ) [StmntPrint]
+      ) [StatementListDerived2]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  20:47:23,715 - ===================================
+INFO  20:47:23,719 - Deklarisana promenljiva x tipa 1
+INFO  20:47:23,719 - Deklarisana promenljiva y tipa 1
+INFO  20:47:23,719 - Deklarisana promenljiva p tipa 5
+INFO  20:47:23,719 - Deklarisana promenljiva c tipa 2
+INFO  20:47:23,719 - Deklarisana konstanta a tipa 1

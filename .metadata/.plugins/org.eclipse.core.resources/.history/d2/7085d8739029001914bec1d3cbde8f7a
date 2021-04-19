@@ -1,0 +1,32 @@
+INFO  22:03:00,415 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:03:00,442 - #2 program
+INFO  22:03:00,442 - #46 test301
+INFO  22:03:00,442 - #46 int
+INFO  22:03:00,443 - #46 a
+INFO  22:03:00,443 - #37 ;
+INFO  22:03:00,443 - #42 {
+INFO  22:03:00,443 - #13 void
+INFO  22:03:00,443 - #46 main
+INFO  22:03:00,443 - #40 (
+INFO  22:03:00,443 - #41 )
+INFO  22:03:00,444 - #42 {
+INFO  22:03:00,444 - #46 a
+INFO  22:03:00,444 - #34 =
+INFO  22:03:00,445 - #18 5
+INFO  22:03:00,445 - #37 ;
+INFO  22:03:00,446 - #11 print
+INFO  22:03:00,446 - #40 (
+INFO  22:03:00,446 - #46 a
+INFO  22:03:00,446 - #41 )
+INFO  22:03:00,447 - #37 ;
+INFO  22:03:00,447 - #43 }
+INFO  22:03:00,447 - #43 }
+INFO  22:03:00,451 - =========================SEMANTICKA OBRADA============================
+INFO  22:03:00,452 - Pretraga na  9(a), nadjeno Var a: int, 0, 0 
+INFO  22:03:00,452 - Pretraga na  10(a), nadjeno Var a: int, 0, 0 
+INFO  22:03:00,456 - =========================SINTAKSNA ANALIZA============================
+INFO  22:03:00,456 - Global variables:    1
+INFO  22:03:00,456 - Global constants:    0
+INFO  22:03:00,456 - Global arrays:    0
+INFO  22:03:00,456 - Locals in main:    0
+INFO  22:03:00,457 - Statements in main:    2

@@ -1,0 +1,12 @@
+INFO  22:58:52,559 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program1.mj
+ERROR 22:58:52,585 - 
+Sintaksna greska na liniji 3
+ERROR 22:58:52,586 - Izvrsen oporavak do ; u liniji 3
+INFO  22:58:52,593 - =========================SEMANTICKA OBRADA============================
+ERROR 22:58:52,593 - Greska(0) Sintaksna greska.
+ERROR 22:58:52,593 - Greska(9) Promenljiva ne postoji.
+INFO  22:58:52,593 - Pretraga na  9(b), nadjeno Var noObj: notype, -1, -1 
+ERROR 22:58:52,593 - Greska(9) Promenljiva ne postoji.
+INFO  22:58:52,593 - Pretraga na  9(n), nadjeno Var noObj: notype, -1, -1 
+INFO  22:58:52,593 - Pretraga na  10(c), nadjeno Var c: char, 0, 0 
+ERROR 22:58:52,593 - =========================GRESKA PRI PARSIRANJU============================

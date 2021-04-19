@@ -1,0 +1,342 @@
+INFO  22:55:03,407 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program2.mj
+INFO  22:55:03,431 - #2 program
+INFO  22:55:03,431 - #46 test301
+INFO  22:55:03,431 - #6 enum
+INFO  22:55:03,432 - #46 ENUM1
+INFO  22:55:03,432 - #42 {
+INFO  22:55:03,432 - #46 x
+INFO  22:55:03,432 - #34 =
+INFO  22:55:03,432 - #18 1
+INFO  22:55:03,432 - #38 ,
+INFO  22:55:03,433 - #46 y
+INFO  22:55:03,433 - #34 =
+INFO  22:55:03,433 - #18 2
+INFO  22:55:03,433 - #43 }
+INFO  22:55:03,433 - #6 enum
+INFO  22:55:03,433 - #46 ENUM2
+INFO  22:55:03,433 - #42 {
+INFO  22:55:03,433 - #46 p
+INFO  22:55:03,433 - #34 =
+INFO  22:55:03,433 - #18 5
+INFO  22:55:03,433 - #38 ,
+INFO  22:55:03,433 - #46 q
+INFO  22:55:03,433 - #34 =
+INFO  22:55:03,433 - #18 10
+INFO  22:55:03,433 - #43 }
+INFO  22:55:03,434 - #8 const
+INFO  22:55:03,434 - #46 int
+INFO  22:55:03,434 - #46 jedan
+INFO  22:55:03,434 - #34 =
+INFO  22:55:03,434 - #18 1
+INFO  22:55:03,434 - #37 ;
+INFO  22:55:03,434 - #46 int
+INFO  22:55:03,434 - #46 g_i
+INFO  22:55:03,434 - #37 ;
+INFO  22:55:03,434 - #46 char
+INFO  22:55:03,435 - #46 g_c
+INFO  22:55:03,435 - #37 ;
+INFO  22:55:03,435 - #46 bool
+INFO  22:55:03,435 - #46 g_b
+INFO  22:55:03,435 - #37 ;
+INFO  22:55:03,435 - #42 {
+INFO  22:55:03,435 - #13 void
+INFO  22:55:03,435 - #46 main
+INFO  22:55:03,435 - #40 (
+INFO  22:55:03,435 - #41 )
+INFO  22:55:03,435 - #46 int
+INFO  22:55:03,435 - #46 l_nizi
+INFO  22:55:03,435 - #44 [
+INFO  22:55:03,435 - #45 ]
+INFO  22:55:03,436 - #37 ;
+INFO  22:55:03,436 - #46 char
+INFO  22:55:03,436 - #46 l_nizch
+INFO  22:55:03,436 - #44 [
+INFO  22:55:03,436 - #45 ]
+INFO  22:55:03,436 - #37 ;
+INFO  22:55:03,436 - #46 bool
+INFO  22:55:03,436 - #46 l_nizb
+INFO  22:55:03,436 - #44 [
+INFO  22:55:03,436 - #45 ]
+INFO  22:55:03,436 - #37 ;
+INFO  22:55:03,436 - #46 ENUM1
+INFO  22:55:03,436 - #46 l_nize1
+INFO  22:55:03,436 - #44 [
+INFO  22:55:03,436 - #45 ]
+INFO  22:55:03,436 - #37 ;
+INFO  22:55:03,436 - #46 ENUM2
+INFO  22:55:03,436 - #46 l_nize2
+INFO  22:55:03,436 - #44 [
+INFO  22:55:03,436 - #45 ]
+INFO  22:55:03,436 - #37 ;
+INFO  22:55:03,436 - #42 {
+INFO  22:55:03,436 - #46 l_nizi
+INFO  22:55:03,437 - #34 =
+INFO  22:55:03,437 - #10 new
+INFO  22:55:03,437 - #46 int
+INFO  22:55:03,437 - #44 [
+INFO  22:55:03,437 - #18 1
+INFO  22:55:03,437 - #45 ]
+INFO  22:55:03,438 - #37 ;
+INFO  22:55:03,439 - #46 l_nizch
+INFO  22:55:03,439 - #34 =
+INFO  22:55:03,439 - #10 new
+INFO  22:55:03,439 - #46 char
+INFO  22:55:03,439 - #44 [
+INFO  22:55:03,439 - #18 1
+INFO  22:55:03,439 - #45 ]
+INFO  22:55:03,439 - #37 ;
+INFO  22:55:03,439 - #46 l_nizb
+INFO  22:55:03,439 - #34 =
+INFO  22:55:03,439 - #10 new
+INFO  22:55:03,439 - #46 bool
+INFO  22:55:03,439 - #44 [
+INFO  22:55:03,440 - #18 1
+INFO  22:55:03,440 - #45 ]
+INFO  22:55:03,440 - #37 ;
+INFO  22:55:03,440 - #46 g_i
+INFO  22:55:03,440 - #34 =
+INFO  22:55:03,440 - #18 10
+INFO  22:55:03,440 - #37 ;
+INFO  22:55:03,440 - #46 l_nizi
+INFO  22:55:03,440 - #44 [
+INFO  22:55:03,440 - #18 0
+INFO  22:55:03,440 - #45 ]
+INFO  22:55:03,440 - #34 =
+INFO  22:55:03,441 - #46 g_i
+INFO  22:55:03,441 - #37 ;
+INFO  22:55:03,441 - #46 l_nizi
+INFO  22:55:03,441 - #44 [
+INFO  22:55:03,441 - #18 0
+INFO  22:55:03,441 - #45 ]
+INFO  22:55:03,441 - #35 ++
+INFO  22:55:03,441 - #37 ;
+INFO  22:55:03,441 - #11 print
+INFO  22:55:03,441 - #40 (
+INFO  22:55:03,441 - #46 l_nizi
+INFO  22:55:03,441 - #44 [
+INFO  22:55:03,441 - #18 0
+INFO  22:55:03,441 - #45 ]
+INFO  22:55:03,441 - #41 )
+INFO  22:55:03,441 - #37 ;
+INFO  22:55:03,441 - #11 print
+INFO  22:55:03,442 - #40 (
+INFO  22:55:03,442 - #40 (
+INFO  22:55:03,442 - #46 l_nizi
+INFO  22:55:03,442 - #44 [
+INFO  22:55:03,442 - #18 0
+INFO  22:55:03,442 - #45 ]
+INFO  22:55:03,442 - #21 +
+INFO  22:55:03,443 - #18 20
+INFO  22:55:03,443 - #41 )
+INFO  22:55:03,443 - #41 )
+INFO  22:55:03,443 - #37 ;
+INFO  22:55:03,443 - #46 l_nizi
+INFO  22:55:03,443 - #44 [
+INFO  22:55:03,443 - #18 0
+INFO  22:55:03,443 - #45 ]
+INFO  22:55:03,443 - #36 --
+INFO  22:55:03,443 - #37 ;
+INFO  22:55:03,443 - #11 print
+INFO  22:55:03,443 - #40 (
+INFO  22:55:03,444 - #40 (
+INFO  22:55:03,444 - #46 l_nizi
+INFO  22:55:03,444 - #44 [
+INFO  22:55:03,444 - #18 0
+INFO  22:55:03,444 - #45 ]
+INFO  22:55:03,444 - #21 +
+INFO  22:55:03,444 - #18 20
+INFO  22:55:03,444 - #41 )
+INFO  22:55:03,444 - #41 )
+INFO  22:55:03,444 - #37 ;
+INFO  22:55:03,444 - #11 print
+INFO  22:55:03,444 - #40 (
+INFO  22:55:03,444 - #40 (
+INFO  22:55:03,444 - #40 (
+INFO  22:55:03,444 - #22 -
+INFO  22:55:03,444 - #46 l_nizi
+INFO  22:55:03,444 - #44 [
+INFO  22:55:03,444 - #18 0
+INFO  22:55:03,444 - #45 ]
+INFO  22:55:03,444 - #41 )
+INFO  22:55:03,444 - #41 )
+INFO  22:55:03,444 - #41 )
+INFO  22:55:03,445 - #37 ;
+INFO  22:55:03,445 - #11 print
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #22 -
+INFO  22:55:03,445 - #46 l_nizi
+INFO  22:55:03,445 - #44 [
+INFO  22:55:03,445 - #18 0
+INFO  22:55:03,445 - #45 ]
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #21 +
+INFO  22:55:03,445 - #18 20
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #37 ;
+INFO  22:55:03,445 - #11 print
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #22 -
+INFO  22:55:03,445 - #46 l_nizi
+INFO  22:55:03,445 - #44 [
+INFO  22:55:03,445 - #18 0
+INFO  22:55:03,445 - #45 ]
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #23 *
+INFO  22:55:03,445 - #18 10
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #41 )
+INFO  22:55:03,445 - #37 ;
+INFO  22:55:03,445 - #12 read
+INFO  22:55:03,445 - #40 (
+INFO  22:55:03,445 - #46 l_nizi
+INFO  22:55:03,446 - #44 [
+INFO  22:55:03,446 - #18 0
+INFO  22:55:03,446 - #45 ]
+INFO  22:55:03,446 - #41 )
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #11 print
+INFO  22:55:03,446 - #40 (
+INFO  22:55:03,446 - #46 l_nizi
+INFO  22:55:03,446 - #44 [
+INFO  22:55:03,446 - #18 0
+INFO  22:55:03,446 - #45 ]
+INFO  22:55:03,446 - #41 )
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #46 g_b
+INFO  22:55:03,446 - #34 =
+INFO  22:55:03,446 - #20 true
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #11 print
+INFO  22:55:03,446 - #40 (
+INFO  22:55:03,446 - #46 g_b
+INFO  22:55:03,446 - #41 )
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #12 read
+INFO  22:55:03,446 - #40 (
+INFO  22:55:03,446 - #46 g_b
+INFO  22:55:03,446 - #41 )
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #11 print
+INFO  22:55:03,446 - #40 (
+INFO  22:55:03,446 - #46 g_b
+INFO  22:55:03,446 - #41 )
+INFO  22:55:03,446 - #37 ;
+INFO  22:55:03,446 - #46 g_c
+INFO  22:55:03,446 - #34 =
+INFO  22:55:03,447 - #19 a
+INFO  22:55:03,447 - #37 ;
+INFO  22:55:03,447 - #11 print
+INFO  22:55:03,447 - #40 (
+INFO  22:55:03,447 - #46 g_c
+INFO  22:55:03,447 - #41 )
+INFO  22:55:03,447 - #37 ;
+INFO  22:55:03,447 - #12 read
+INFO  22:55:03,447 - #40 (
+INFO  22:55:03,447 - #46 g_c
+INFO  22:55:03,447 - #41 )
+INFO  22:55:03,447 - #37 ;
+INFO  22:55:03,447 - #11 print
+INFO  22:55:03,447 - #40 (
+INFO  22:55:03,447 - #46 g_c
+INFO  22:55:03,447 - #41 )
+INFO  22:55:03,447 - #37 ;
+INFO  22:55:03,447 - #46 l_nize1
+INFO  22:55:03,447 - #34 =
+INFO  22:55:03,447 - #10 new
+INFO  22:55:03,447 - #46 E1
+INFO  22:55:03,447 - #44 [
+INFO  22:55:03,447 - #18 1
+INFO  22:55:03,447 - #45 ]
+INFO  22:55:03,448 - #37 ;
+INFO  22:55:03,448 - #46 l_nize1
+INFO  22:55:03,448 - #44 [
+INFO  22:55:03,448 - #18 0
+INFO  22:55:03,448 - #45 ]
+INFO  22:55:03,448 - #34 =
+INFO  22:55:03,448 - #46 E1
+INFO  22:55:03,448 - #39 .
+INFO  22:55:03,448 - #46 x
+INFO  22:55:03,448 - #37 ;
+INFO  22:55:03,449 - #11 print
+INFO  22:55:03,449 - #40 (
+INFO  22:55:03,449 - #46 l_nize1
+INFO  22:55:03,449 - #44 [
+INFO  22:55:03,449 - #18 0
+INFO  22:55:03,449 - #45 ]
+INFO  22:55:03,449 - #41 )
+INFO  22:55:03,449 - #37 ;
+INFO  22:55:03,449 - #46 l_nize2
+INFO  22:55:03,449 - #34 =
+INFO  22:55:03,449 - #10 new
+INFO  22:55:03,449 - #46 E2
+INFO  22:55:03,449 - #44 [
+INFO  22:55:03,449 - #18 1
+INFO  22:55:03,449 - #45 ]
+INFO  22:55:03,449 - #37 ;
+INFO  22:55:03,449 - #46 l_nize2
+INFO  22:55:03,449 - #44 [
+INFO  22:55:03,449 - #18 0
+INFO  22:55:03,449 - #45 ]
+INFO  22:55:03,449 - #34 =
+INFO  22:55:03,449 - #46 E2
+INFO  22:55:03,449 - #39 .
+INFO  22:55:03,449 - #46 p
+INFO  22:55:03,449 - #37 ;
+INFO  22:55:03,449 - #11 print
+INFO  22:55:03,449 - #40 (
+INFO  22:55:03,449 - #46 l_nize2
+INFO  22:55:03,450 - #44 [
+INFO  22:55:03,450 - #18 0
+INFO  22:55:03,450 - #45 ]
+INFO  22:55:03,450 - #41 )
+INFO  22:55:03,450 - #37 ;
+INFO  22:55:03,450 - #43 }
+INFO  22:55:03,450 - #43 }
+INFO  22:55:03,454 - =========================SEMANTICKA OBRADA============================
+INFO  22:55:03,454 - Pretraga na  18(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  19(l_nizch), nadjeno Var l_nizch: Arr of char, 1, 1 
+INFO  22:55:03,455 - Pretraga na  20(l_nizb), nadjeno Var l_nizb: Arr of , 2, 1 
+INFO  22:55:03,455 - Pretraga na  22(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  22:55:03,455 - Pretraga na  23(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  23(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  22:55:03,455 - Pretraga na  25(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  27(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  28(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  29(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  30(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  31(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  32(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  33(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  35(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  36(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  22:55:03,455 - Pretraga na  38(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  22:55:03,455 - Pretraga na  40(g_b), nadjeno Var g_b: bool, 2, 0 
+ERROR 22:55:03,455 - Greska(40) Print komanda zahteva drugi tip.
+INFO  22:55:03,455 - Pretraga na  42(g_b), nadjeno Var g_b: bool, 2, 0 
+ERROR 22:55:03,455 - Greska(42) Read komanda zahteva drugi tip.
+INFO  22:55:03,455 - Pretraga na  43(g_b), nadjeno Var g_b: bool, 2, 0 
+ERROR 22:55:03,455 - Greska(43) Print komanda zahteva drugi tip.
+INFO  22:55:03,455 - Pretraga na  45(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  22:55:03,455 - Pretraga na  46(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  22:55:03,455 - Pretraga na  48(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  22:55:03,455 - Pretraga na  49(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  22:55:03,455 - Pretraga na  51(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 22:55:03,455 - Greska(51) Nije pronadnjen tip E1 u tabeli simbola.
+ERROR 22:55:03,455 - Greska(51) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  22:55:03,455 - Pretraga na  52(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 22:55:03,455 - Greska(52) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  22:55:03,455 - Pretraga na  54(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 22:55:03,455 - Greska(54) Print komanda zahteva drugi tip.
+INFO  22:55:03,456 - Pretraga na  56(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 22:55:03,456 - Greska(56) Nije pronadnjen tip E2 u tabeli simbola.
+ERROR 22:55:03,456 - Greska(56) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  22:55:03,456 - Pretraga na  57(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 22:55:03,456 - Greska(57) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  22:55:03,456 - Pretraga na  59(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 22:55:03,456 - Greska(59) Print komanda zahteva drugi tip.
+ERROR 22:55:03,456 - =========================GRESKA PRI PARSIRANJU============================

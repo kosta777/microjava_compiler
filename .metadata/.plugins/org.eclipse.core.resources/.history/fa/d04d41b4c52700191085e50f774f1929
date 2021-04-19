@@ -1,0 +1,19 @@
+package rs.ac.bg.etf.pp1;
+
+public class CounterVisitor 
+{
+	protected int count;
+	
+	public int getCount()
+	{
+		return count;
+	}
+	
+	public static class FormParamCounter extends CounterVisitor
+	{
+		public void visit(FormPars pars )
+		{
+			count++;
+		}
+	}
+}

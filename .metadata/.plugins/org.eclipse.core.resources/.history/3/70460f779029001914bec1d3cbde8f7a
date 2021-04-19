@@ -1,0 +1,46 @@
+INFO  18:09:01,996 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  18:09:02,248 - #2 program
+INFO  18:09:02,248 - #46 MJProgram
+INFO  18:09:02,248 - #46 int
+INFO  18:09:02,251 - #46 x
+INFO  18:09:02,251 - #38 ,
+INFO  18:09:02,251 - #46 y
+INFO  18:09:02,251 - #37 ;
+INFO  18:09:02,251 - #46 bool
+INFO  18:09:02,252 - #46 p
+INFO  18:09:02,252 - #37 ;
+INFO  18:09:02,252 - #46 char
+INFO  18:09:02,252 - #46 c
+INFO  18:09:02,252 - #37 ;
+INFO  18:09:02,252 - #42 {
+INFO  18:09:02,252 - #13 void
+INFO  18:09:02,252 - #46 main
+INFO  18:09:02,254 - #40 (
+INFO  18:09:02,255 - #41 )
+INFO  18:09:02,257 - #42 {
+INFO  18:09:02,260 - #46 p
+INFO  18:09:02,260 - #34 =
+INFO  18:09:02,260 - #21 +
+ERROR 18:09:02,260 - 
+Sintaksna greska na liniji 7
+INFO  18:09:02,260 - #22 -
+INFO  18:09:02,260 - #18 4
+INFO  18:09:02,260 - #20 true
+INFO  18:09:02,261 - #37 ;
+INFO  18:09:02,261 - #46 c
+INFO  18:09:02,261 - #34 =
+INFO  18:09:02,261 - #19 v
+INFO  18:09:02,261 - #37 ;
+INFO  18:09:02,261 - #11 print
+INFO  18:09:02,261 - #40 (
+INFO  18:09:02,261 - #18 1
+INFO  18:09:02,261 - #41 )
+INFO  18:09:02,261 - #37 ;
+INFO  18:09:02,261 - #11 print
+INFO  18:09:02,262 - #40 (
+INFO  18:09:02,262 - #18 2
+INFO  18:09:02,262 - #41 )
+INFO  18:09:02,262 - #37 ;
+INFO  18:09:02,262 - #43 }
+INFO  18:09:02,262 - #43 }
+ERROR 18:09:02,262 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

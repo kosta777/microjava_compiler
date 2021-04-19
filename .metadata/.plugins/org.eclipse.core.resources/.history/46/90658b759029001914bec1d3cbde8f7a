@@ -1,0 +1,133 @@
+INFO  19:46:32,514 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  19:46:32,541 - #2 program
+INFO  19:46:32,541 - #46 test301
+INFO  19:46:32,541 - #6 enum
+INFO  19:46:32,542 - #46 Broj
+INFO  19:46:32,542 - #42 {
+INFO  19:46:32,542 - #46 NULA
+INFO  19:46:32,542 - #38 ,
+INFO  19:46:32,543 - #46 JEDAN
+INFO  19:46:32,543 - #38 ,
+INFO  19:46:32,543 - #46 PET
+INFO  19:46:32,543 - #34 =
+INFO  19:46:32,543 - #18 5
+INFO  19:46:32,543 - #38 ,
+INFO  19:46:32,543 - #46 DESET
+INFO  19:46:32,543 - #34 =
+INFO  19:46:32,543 - #18 10
+INFO  19:46:32,543 - #43 }
+INFO  19:46:32,544 - #8 const
+INFO  19:46:32,544 - #46 int
+INFO  19:46:32,544 - #46 jedan
+INFO  19:46:32,544 - #34 =
+INFO  19:46:32,544 - #18 1
+INFO  19:46:32,544 - #37 ;
+INFO  19:46:32,545 - #8 const
+INFO  19:46:32,545 - #46 int
+INFO  19:46:32,545 - #46 pet
+INFO  19:46:32,545 - #34 =
+INFO  19:46:32,545 - #18 5
+INFO  19:46:32,545 - #37 ;
+INFO  19:46:32,545 - #46 int
+INFO  19:46:32,545 - #46 niz
+INFO  19:46:32,545 - #44 [
+INFO  19:46:32,545 - #45 ]
+INFO  19:46:32,545 - #37 ;
+INFO  19:46:32,546 - #46 char
+INFO  19:46:32,546 - #46 nizch
+INFO  19:46:32,546 - #44 [
+INFO  19:46:32,546 - #45 ]
+INFO  19:46:32,546 - #37 ;
+INFO  19:46:32,546 - #46 int
+INFO  19:46:32,546 - #46 ni2z
+INFO  19:46:32,546 - #37 ;
+INFO  19:46:32,546 - #42 {
+INFO  19:46:32,546 - #13 void
+INFO  19:46:32,546 - #46 main
+INFO  19:46:32,546 - #40 (
+INFO  19:46:32,547 - #41 )
+INFO  19:46:32,547 - #46 int
+INFO  19:46:32,547 - #46 bodovi
+INFO  19:46:32,547 - #37 ;
+INFO  19:46:32,547 - #46 Broj
+INFO  19:46:32,547 - #46 nula
+INFO  19:46:32,547 - #38 ,
+INFO  19:46:32,547 - #46 jedan
+INFO  19:46:32,547 - #37 ;
+INFO  19:46:32,548 - #42 {
+INFO  19:46:32,548 - #46 nula
+INFO  19:46:32,548 - #34 =
+INFO  19:46:32,548 - #46 Broj
+INFO  19:46:32,548 - #39 .
+INFO  19:46:32,548 - #46 NULA
+INFO  19:46:32,548 - #37 ;
+INFO  19:46:32,549 - #46 jedan
+INFO  19:46:32,551 - #34 =
+INFO  19:46:32,551 - #46 Broj
+INFO  19:46:32,551 - #39 .
+INFO  19:46:32,551 - #46 JEDAN
+INFO  19:46:32,551 - #37 ;
+INFO  19:46:32,551 - #46 niz
+INFO  19:46:32,551 - #34 =
+INFO  19:46:32,551 - #10 new
+INFO  19:46:32,551 - #46 int
+INFO  19:46:32,551 - #44 [
+INFO  19:46:32,551 - #18 2
+INFO  19:46:32,551 - #45 ]
+INFO  19:46:32,551 - #37 ;
+INFO  19:46:32,552 - #46 niz
+INFO  19:46:32,552 - #44 [
+INFO  19:46:32,552 - #18 0
+INFO  19:46:32,552 - #45 ]
+INFO  19:46:32,552 - #34 =
+INFO  19:46:32,553 - #18 0
+INFO  19:46:32,553 - #37 ;
+INFO  19:46:32,553 - #46 niz
+INFO  19:46:32,553 - #44 [
+INFO  19:46:32,553 - #18 1
+INFO  19:46:32,553 - #45 ]
+INFO  19:46:32,553 - #34 =
+INFO  19:46:32,553 - #18 1
+INFO  19:46:32,553 - #37 ;
+INFO  19:46:32,553 - #46 niz
+INFO  19:46:32,553 - #44 [
+INFO  19:46:32,553 - #46 niz
+INFO  19:46:32,554 - #44 [
+INFO  19:46:32,554 - #46 niz
+INFO  19:46:32,554 - #44 [
+INFO  19:46:32,554 - #18 1
+INFO  19:46:32,554 - #45 ]
+INFO  19:46:32,554 - #45 ]
+INFO  19:46:32,554 - #45 ]
+INFO  19:46:32,554 - #34 =
+INFO  19:46:32,554 - #18 5
+INFO  19:46:32,554 - #37 ;
+INFO  19:46:32,554 - #46 niz
+INFO  19:46:32,554 - #44 [
+INFO  19:46:32,554 - #18 1
+INFO  19:46:32,554 - #45 ]
+INFO  19:46:32,554 - #35 ++
+INFO  19:46:32,554 - #37 ;
+INFO  19:46:32,555 - #11 print
+INFO  19:46:32,555 - #40 (
+INFO  19:46:32,555 - #46 niz
+INFO  19:46:32,555 - #44 [
+INFO  19:46:32,555 - #18 1
+INFO  19:46:32,555 - #45 ]
+INFO  19:46:32,555 - #41 )
+INFO  19:46:32,555 - #37 ;
+INFO  19:46:32,555 - #43 }
+INFO  19:46:32,555 - #43 }
+INFO  19:46:32,560 - =========================SEMANTICKA OBRADA============================
+INFO  19:46:32,561 - Pretraga na  17(nula), nadjeno Var nula: enum, 1, 1 
+INFO  19:46:32,561 - Pretraga na  18(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  19:46:32,561 - Pretraga na  20(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,561 - Pretraga na  21(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,561 - Pretraga na  22(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,561 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,562 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,562 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  19:46:32,562 - Pretraga na  24(niz), nadjeno Var niz: Arr of int, 0, 0 
+ERROR 19:46:32,562 - Greska(24) Neslaganje tipova prilikom operacije inkrementiranja.
+INFO  19:46:32,562 - Pretraga na  26(niz), nadjeno Var niz: Arr of int, 0, 0 
+ERROR 19:46:32,562 - =========================GRESKA PRI PARSIRANJU============================

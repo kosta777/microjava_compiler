@@ -1,0 +1,157 @@
+INFO  22:02:09,600 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:02:09,628 - #2 program
+INFO  22:02:09,629 - #46 test301
+INFO  22:02:09,629 - #6 enum
+INFO  22:02:09,629 - #46 Broj
+INFO  22:02:09,629 - #42 {
+INFO  22:02:09,630 - #46 NULA
+INFO  22:02:09,630 - #38 ,
+INFO  22:02:09,630 - #46 JEDAN
+INFO  22:02:09,630 - #38 ,
+INFO  22:02:09,631 - #46 PET
+INFO  22:02:09,631 - #34 =
+INFO  22:02:09,631 - #18 5
+INFO  22:02:09,631 - #38 ,
+INFO  22:02:09,631 - #46 DESET
+INFO  22:02:09,631 - #34 =
+INFO  22:02:09,631 - #18 10
+INFO  22:02:09,631 - #43 }
+INFO  22:02:09,631 - #6 enum
+INFO  22:02:09,632 - #46 Broj1
+INFO  22:02:09,632 - #42 {
+INFO  22:02:09,632 - #46 NULA
+INFO  22:02:09,632 - #34 =
+INFO  22:02:09,632 - #18 1
+INFO  22:02:09,632 - #38 ,
+INFO  22:02:09,632 - #46 JEDAN
+INFO  22:02:09,632 - #34 =
+INFO  22:02:09,632 - #18 2
+INFO  22:02:09,632 - #38 ,
+INFO  22:02:09,632 - #46 PET
+INFO  22:02:09,632 - #34 =
+INFO  22:02:09,632 - #18 6
+INFO  22:02:09,632 - #38 ,
+INFO  22:02:09,632 - #46 DESET
+INFO  22:02:09,632 - #34 =
+INFO  22:02:09,632 - #18 11
+INFO  22:02:09,632 - #43 }
+INFO  22:02:09,633 - #8 const
+INFO  22:02:09,633 - #46 int
+INFO  22:02:09,633 - #46 jedan
+INFO  22:02:09,633 - #34 =
+INFO  22:02:09,633 - #18 1
+INFO  22:02:09,633 - #37 ;
+INFO  22:02:09,633 - #8 const
+INFO  22:02:09,634 - #46 int
+INFO  22:02:09,634 - #46 pet
+INFO  22:02:09,634 - #34 =
+INFO  22:02:09,634 - #18 5
+INFO  22:02:09,634 - #37 ;
+INFO  22:02:09,634 - #46 int
+INFO  22:02:09,634 - #46 niz
+INFO  22:02:09,634 - #44 [
+INFO  22:02:09,634 - #45 ]
+INFO  22:02:09,634 - #37 ;
+INFO  22:02:09,634 - #46 char
+INFO  22:02:09,635 - #46 nizch
+INFO  22:02:09,635 - #44 [
+INFO  22:02:09,635 - #45 ]
+INFO  22:02:09,635 - #37 ;
+INFO  22:02:09,635 - #46 int
+INFO  22:02:09,635 - #46 ni2z
+INFO  22:02:09,635 - #37 ;
+INFO  22:02:09,635 - #42 {
+INFO  22:02:09,635 - #13 void
+INFO  22:02:09,635 - #46 main
+INFO  22:02:09,635 - #40 (
+INFO  22:02:09,635 - #41 )
+INFO  22:02:09,635 - #46 int
+INFO  22:02:09,636 - #46 bodovi
+INFO  22:02:09,636 - #37 ;
+INFO  22:02:09,636 - #46 Broj
+INFO  22:02:09,636 - #46 nula
+INFO  22:02:09,636 - #38 ,
+INFO  22:02:09,636 - #46 jedan
+INFO  22:02:09,639 - #37 ;
+INFO  22:02:09,639 - #42 {
+INFO  22:02:09,640 - #46 nula
+INFO  22:02:09,640 - #34 =
+INFO  22:02:09,643 - #46 Broj
+INFO  22:02:09,643 - #39 .
+INFO  22:02:09,643 - #46 NULA
+INFO  22:02:09,643 - #37 ;
+INFO  22:02:09,645 - #46 jedan
+INFO  22:02:09,646 - #34 =
+INFO  22:02:09,646 - #46 Broj
+INFO  22:02:09,646 - #39 .
+INFO  22:02:09,646 - #46 JEDAN
+INFO  22:02:09,646 - #37 ;
+INFO  22:02:09,646 - #46 niz
+INFO  22:02:09,646 - #34 =
+INFO  22:02:09,646 - #10 new
+INFO  22:02:09,646 - #46 int
+INFO  22:02:09,646 - #44 [
+INFO  22:02:09,646 - #18 2
+INFO  22:02:09,646 - #45 ]
+INFO  22:02:09,646 - #37 ;
+INFO  22:02:09,647 - #46 niz
+INFO  22:02:09,647 - #44 [
+INFO  22:02:09,647 - #18 0
+INFO  22:02:09,648 - #45 ]
+INFO  22:02:09,648 - #34 =
+INFO  22:02:09,648 - #18 0
+INFO  22:02:09,648 - #37 ;
+INFO  22:02:09,648 - #46 niz
+INFO  22:02:09,649 - #44 [
+INFO  22:02:09,649 - #18 1
+INFO  22:02:09,649 - #45 ]
+INFO  22:02:09,649 - #34 =
+INFO  22:02:09,649 - #18 1
+INFO  22:02:09,649 - #37 ;
+INFO  22:02:09,649 - #46 niz
+INFO  22:02:09,649 - #44 [
+INFO  22:02:09,649 - #46 niz
+INFO  22:02:09,649 - #44 [
+INFO  22:02:09,649 - #46 niz
+INFO  22:02:09,649 - #44 [
+INFO  22:02:09,649 - #18 1
+INFO  22:02:09,649 - #45 ]
+INFO  22:02:09,649 - #45 ]
+INFO  22:02:09,649 - #45 ]
+INFO  22:02:09,649 - #34 =
+INFO  22:02:09,650 - #18 5
+INFO  22:02:09,650 - #37 ;
+INFO  22:02:09,650 - #46 niz
+INFO  22:02:09,650 - #44 [
+INFO  22:02:09,650 - #46 jedan
+INFO  22:02:09,650 - #45 ]
+INFO  22:02:09,650 - #36 --
+INFO  22:02:09,650 - #37 ;
+INFO  22:02:09,650 - #11 print
+INFO  22:02:09,650 - #40 (
+INFO  22:02:09,650 - #46 niz
+INFO  22:02:09,650 - #44 [
+INFO  22:02:09,650 - #18 1
+INFO  22:02:09,651 - #45 ]
+INFO  22:02:09,651 - #41 )
+INFO  22:02:09,651 - #37 ;
+INFO  22:02:09,651 - #43 }
+INFO  22:02:09,651 - #43 }
+INFO  22:02:09,655 - =========================SEMANTICKA OBRADA============================
+INFO  22:02:09,656 - Pretraga na  17(nula), nadjeno Var nula: enum, 1, 1 
+INFO  22:02:09,656 - Pretraga na  18(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  22:02:09,656 - Pretraga na  20(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,656 - Pretraga na  21(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,656 - Pretraga na  22(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,657 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,657 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,657 - Pretraga na  23(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,657 - Pretraga na  24(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,657 - Pretraga na  24(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  22:02:09,657 - Pretraga na  26(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  22:02:09,661 - =========================SINTAKSNA ANALIZA============================
+INFO  22:02:09,661 - Global variables:    1
+INFO  22:02:09,661 - Global constants:    2
+INFO  22:02:09,661 - Global arrays:    2
+INFO  22:02:09,661 - Locals in main:    3
+INFO  22:02:09,661 - Statements in main:    8

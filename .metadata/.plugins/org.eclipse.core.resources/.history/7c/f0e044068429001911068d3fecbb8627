@@ -1,0 +1,20 @@
+program test301
+
+	enum Broj { NULA, JEDAN, PET=5, DESET=10}
+
+	const int jedan = 1;
+	const int pet = 5;
+
+	char niz[];
+	char niz1[];
+	char niz2[];
+	int ni2z;
+	
+{
+	void main()	
+		int bodovi;
+		Broj nula, jedan;
+	{
+		niz2z = 5;
+	}
+}

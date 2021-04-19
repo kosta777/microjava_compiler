@@ -1,0 +1,71 @@
+INFO  20:59:28,017 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  20:59:28,045 - #2 program
+INFO  20:59:28,045 - #46 test301
+INFO  20:59:28,045 - #6 enum
+INFO  20:59:28,046 - #46 Broj
+INFO  20:59:28,046 - #42 {
+INFO  20:59:28,046 - #46 NULA
+INFO  20:59:28,046 - #38 ,
+INFO  20:59:28,046 - #46 JEDAN
+INFO  20:59:28,047 - #38 ,
+INFO  20:59:28,047 - #46 PET
+INFO  20:59:28,047 - #34 =
+INFO  20:59:28,047 - #18 5
+INFO  20:59:28,047 - #38 ,
+INFO  20:59:28,047 - #46 DESET
+INFO  20:59:28,047 - #34 =
+INFO  20:59:28,047 - #18 10
+INFO  20:59:28,047 - #43 }
+INFO  20:59:28,047 - #8 const
+INFO  20:59:28,048 - #46 int
+INFO  20:59:28,048 - #46 jedan
+INFO  20:59:28,048 - #34 =
+INFO  20:59:28,048 - #18 1
+INFO  20:59:28,048 - #37 ;
+INFO  20:59:28,049 - #8 const
+INFO  20:59:28,049 - #46 int
+INFO  20:59:28,049 - #46 pet
+INFO  20:59:28,049 - #34 =
+INFO  20:59:28,049 - #18 5
+INFO  20:59:28,049 - #37 ;
+INFO  20:59:28,049 - #46 int
+INFO  20:59:28,049 - #46 niz
+INFO  20:59:28,049 - #44 [
+INFO  20:59:28,049 - #45 ]
+INFO  20:59:28,049 - #37 ;
+INFO  20:59:28,050 - #46 char
+INFO  20:59:28,050 - #46 nizch
+INFO  20:59:28,050 - #44 [
+INFO  20:59:28,050 - #45 ]
+INFO  20:59:28,050 - #37 ;
+INFO  20:59:28,050 - #46 int
+INFO  20:59:28,050 - #46 ni2z
+INFO  20:59:28,050 - #37 ;
+INFO  20:59:28,050 - #42 {
+INFO  20:59:28,050 - #13 void
+INFO  20:59:28,051 - #46 main
+INFO  20:59:28,051 - #40 (
+INFO  20:59:28,051 - #41 )
+INFO  20:59:28,051 - #46 int
+INFO  20:59:28,051 - #46 bodovi
+INFO  20:59:28,051 - #37 ;
+INFO  20:59:28,051 - #46 Broj
+INFO  20:59:28,052 - #46 nula
+INFO  20:59:28,052 - #38 ,
+INFO  20:59:28,052 - #46 jedan
+INFO  20:59:28,052 - #37 ;
+INFO  20:59:28,052 - #42 {
+INFO  20:59:28,052 - #46 bodovi
+INFO  20:59:28,052 - #34 =
+INFO  20:59:28,052 - #18 0
+INFO  20:59:28,053 - #37 ;
+INFO  20:59:28,054 - #43 }
+INFO  20:59:28,054 - #43 }
+INFO  20:59:28,059 - =========================SEMANTICKA OBRADA============================
+INFO  20:59:28,061 - Pretraga na  17(bodovi), nadjeno Var bodovi: int, 0, 1 
+INFO  20:59:28,066 - =========================SINTAKSNA ANALIZA============================
+INFO  20:59:28,066 - Global variables:    1
+INFO  20:59:28,066 - Global constants:    2
+INFO  20:59:28,066 - Global arrays:    2
+INFO  20:59:28,066 - Locals in main:    3
+INFO  20:59:28,066 - Statements in main:    1

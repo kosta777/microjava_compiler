@@ -1,0 +1,75 @@
+INFO  21:02:51,262 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  21:02:51,289 - #2 program
+INFO  21:02:51,289 - #46 test301
+INFO  21:02:51,289 - #6 enum
+INFO  21:02:51,290 - #46 Broj
+INFO  21:02:51,290 - #42 {
+INFO  21:02:51,290 - #46 NULA
+INFO  21:02:51,290 - #38 ,
+INFO  21:02:51,290 - #46 JEDAN
+INFO  21:02:51,290 - #38 ,
+INFO  21:02:51,291 - #46 PET
+INFO  21:02:51,291 - #34 =
+INFO  21:02:51,291 - #18 5
+INFO  21:02:51,291 - #38 ,
+INFO  21:02:51,291 - #46 DESET
+INFO  21:02:51,291 - #34 =
+INFO  21:02:51,291 - #18 10
+INFO  21:02:51,291 - #43 }
+INFO  21:02:51,291 - #8 const
+INFO  21:02:51,291 - #46 int
+INFO  21:02:51,291 - #46 jedan
+INFO  21:02:51,292 - #34 =
+INFO  21:02:51,292 - #18 1
+INFO  21:02:51,292 - #37 ;
+INFO  21:02:51,292 - #8 const
+INFO  21:02:51,292 - #46 int
+INFO  21:02:51,293 - #46 pet
+INFO  21:02:51,293 - #34 =
+INFO  21:02:51,293 - #18 5
+INFO  21:02:51,293 - #37 ;
+INFO  21:02:51,293 - #46 int
+INFO  21:02:51,293 - #46 niz
+INFO  21:02:51,293 - #44 [
+INFO  21:02:51,293 - #45 ]
+INFO  21:02:51,293 - #37 ;
+INFO  21:02:51,293 - #46 char
+INFO  21:02:51,294 - #46 nizch
+INFO  21:02:51,294 - #44 [
+INFO  21:02:51,294 - #45 ]
+INFO  21:02:51,294 - #37 ;
+INFO  21:02:51,294 - #46 int
+INFO  21:02:51,294 - #46 ni2z
+INFO  21:02:51,294 - #37 ;
+INFO  21:02:51,294 - #42 {
+INFO  21:02:51,294 - #13 void
+INFO  21:02:51,294 - #46 main
+INFO  21:02:51,294 - #40 (
+INFO  21:02:51,294 - #41 )
+INFO  21:02:51,294 - #46 int
+INFO  21:02:51,295 - #46 bodovi
+INFO  21:02:51,295 - #37 ;
+INFO  21:02:51,295 - #46 Broj
+INFO  21:02:51,295 - #46 nula
+INFO  21:02:51,295 - #38 ,
+INFO  21:02:51,295 - #46 jedan
+INFO  21:02:51,295 - #37 ;
+INFO  21:02:51,296 - #42 {
+INFO  21:02:51,296 - #46 nizch
+INFO  21:02:51,296 - #34 =
+INFO  21:02:51,296 - #10 new
+INFO  21:02:51,296 - #46 char
+INFO  21:02:51,296 - #44 [
+INFO  21:02:51,297 - #18 3
+INFO  21:02:51,297 - #45 ]
+INFO  21:02:51,300 - #37 ;
+INFO  21:02:51,301 - #43 }
+INFO  21:02:51,301 - #43 }
+INFO  21:02:51,307 - =========================SEMANTICKA OBRADA============================
+INFO  21:02:51,307 - Pretraga na  17(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  21:02:51,312 - =========================SINTAKSNA ANALIZA============================
+INFO  21:02:51,313 - Global variables:    1
+INFO  21:02:51,313 - Global constants:    2
+INFO  21:02:51,313 - Global arrays:    2
+INFO  21:02:51,313 - Locals in main:    3
+INFO  21:02:51,313 - Statements in main:    1

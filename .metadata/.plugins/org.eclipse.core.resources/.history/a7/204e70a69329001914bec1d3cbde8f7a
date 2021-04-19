@@ -1,0 +1,17 @@
+program test301
+
+
+int a[];
+int b;
+{
+	void main()	
+	{
+		a = new int[5];
+		read(a[0]);
+		a[0]++;
+		c++;
+		print(a[0]);
+	}
+}
+
+

@@ -1,0 +1,376 @@
+INFO  21:24:18,638 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  21:24:18,665 - #2 program
+INFO  21:24:18,666 - #46 MJProgram
+INFO  21:24:18,666 - #46 int
+INFO  21:24:18,666 - #46 x
+INFO  21:24:18,667 - #38 ,
+INFO  21:24:18,667 - #46 y
+INFO  21:24:18,667 - #37 ;
+INFO  21:24:18,667 - #46 bool
+INFO  21:24:18,668 - #46 p
+INFO  21:24:18,668 - #37 ;
+INFO  21:24:18,668 - #46 char
+INFO  21:24:18,668 - #46 c
+INFO  21:24:18,668 - #37 ;
+INFO  21:24:18,668 - #46 int
+INFO  21:24:18,668 - #46 niz
+INFO  21:24:18,668 - #44 [
+INFO  21:24:18,668 - #45 ]
+INFO  21:24:18,668 - #37 ;
+INFO  21:24:18,668 - #8 const
+INFO  21:24:18,668 - #46 int
+INFO  21:24:18,668 - #46 a
+INFO  21:24:18,668 - #34 =
+INFO  21:24:18,668 - #18 5
+INFO  21:24:18,668 - #37 ;
+INFO  21:24:18,669 - #8 const
+INFO  21:24:18,669 - #46 char
+INFO  21:24:18,669 - #46 f
+INFO  21:24:18,669 - #34 =
+INFO  21:24:18,669 - #19 y
+INFO  21:24:18,669 - #37 ;
+INFO  21:24:18,669 - #8 const
+INFO  21:24:18,669 - #46 bool
+INFO  21:24:18,669 - #46 b
+INFO  21:24:18,669 - #34 =
+INFO  21:24:18,669 - #20 true
+INFO  21:24:18,670 - #37 ;
+INFO  21:24:18,670 - #6 enum
+INFO  21:24:18,670 - #46 Broj
+INFO  21:24:18,670 - #42 {
+INFO  21:24:18,670 - #46 NULA
+INFO  21:24:18,670 - #38 ,
+INFO  21:24:18,670 - #46 TRI
+INFO  21:24:18,670 - #34 =
+INFO  21:24:18,670 - #18 4
+INFO  21:24:18,670 - #38 ,
+INFO  21:24:18,671 - #46 PET
+INFO  21:24:18,671 - #34 =
+INFO  21:24:18,671 - #18 5
+INFO  21:24:18,671 - #43 }
+INFO  21:24:18,671 - #42 {
+INFO  21:24:18,671 - #13 void
+INFO  21:24:18,671 - #46 main
+INFO  21:24:18,671 - #40 (
+INFO  21:24:18,671 - #41 )
+INFO  21:24:18,671 - #46 bool
+INFO  21:24:18,672 - #46 ff
+INFO  21:24:18,672 - #37 ;
+INFO  21:24:18,672 - #46 int
+INFO  21:24:18,672 - #46 r
+INFO  21:24:18,672 - #37 ;
+INFO  21:24:18,672 - #42 {
+INFO  21:24:18,672 - #46 niz
+INFO  21:24:18,672 - #34 =
+INFO  21:24:18,672 - #10 new
+INFO  21:24:18,673 - #46 int
+INFO  21:24:18,673 - #44 [
+INFO  21:24:18,673 - #18 3
+INFO  21:24:18,673 - #45 ]
+INFO  21:24:18,674 - #37 ;
+INFO  21:24:18,674 - #46 niz
+INFO  21:24:18,674 - #44 [
+INFO  21:24:18,674 - #18 0
+INFO  21:24:18,674 - #45 ]
+INFO  21:24:18,674 - #34 =
+INFO  21:24:18,675 - #18 1
+INFO  21:24:18,675 - #37 ;
+INFO  21:24:18,675 - #11 print
+INFO  21:24:18,675 - #40 (
+INFO  21:24:18,675 - #46 niz
+INFO  21:24:18,675 - #44 [
+INFO  21:24:18,675 - #18 0
+INFO  21:24:18,675 - #45 ]
+INFO  21:24:18,675 - #41 )
+INFO  21:24:18,675 - #37 ;
+INFO  21:24:18,675 - #11 print
+INFO  21:24:18,675 - #40 (
+INFO  21:24:18,675 - #46 y
+INFO  21:24:18,675 - #41 )
+INFO  21:24:18,675 - #37 ;
+INFO  21:24:18,675 - #43 }
+INFO  21:24:18,676 - #43 }
+INFO  21:24:18,677 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                Declarations(
+                  NoDeclarations(
+                  ) [NoDeclarations]
+                  DeclarationVar(
+                    VarDeclaration(
+                      Type(
+                       int
+                      ) [Type]
+                      VarListObjFirst(
+                        VarListObjSecond(
+                          Variable(
+                           x
+                          ) [Variable]
+                        ) [VarListObjSecond]
+                        Variable(
+                         y
+                        ) [Variable]
+                      ) [VarListObjFirst]
+                    ) [VarDeclaration]
+                  ) [DeclarationVar]
+                ) [Declarations]
+                DeclarationVar(
+                  VarDeclaration(
+                    Type(
+                     bool
+                    ) [Type]
+                    VarListObjSecond(
+                      Variable(
+                       p
+                      ) [Variable]
+                    ) [VarListObjSecond]
+                  ) [VarDeclaration]
+                ) [DeclarationVar]
+              ) [Declarations]
+              DeclarationVar(
+                VarDeclaration(
+                  Type(
+                   char
+                  ) [Type]
+                  VarListObjSecond(
+                    Variable(
+                     c
+                    ) [Variable]
+                  ) [VarListObjSecond]
+                ) [VarDeclaration]
+              ) [DeclarationVar]
+            ) [Declarations]
+            DeclarationVar(
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+                VarListObjSecond(
+                  VariableArray(
+                   niz
+                  ) [VariableArray]
+                ) [VarListObjSecond]
+              ) [VarDeclaration]
+            ) [DeclarationVar]
+          ) [Declarations]
+          DeclarationConst(
+            ConstDeclObj(
+              Type(
+               int
+              ) [Type]
+              ConstListDerived1(
+                ConstantNum(
+                 a
+                 5
+                ) [ConstantNum]
+              ) [ConstListDerived1]
+            ) [ConstDeclObj]
+          ) [DeclarationConst]
+        ) [Declarations]
+        DeclarationConst(
+          ConstDeclObj(
+            Type(
+             char
+            ) [Type]
+            ConstListDerived1(
+              ConstantChar(
+               f
+               y
+              ) [ConstantChar]
+            ) [ConstListDerived1]
+          ) [ConstDeclObj]
+        ) [DeclarationConst]
+      ) [Declarations]
+      DeclarationConst(
+        ConstDeclObj(
+          Type(
+           bool
+          ) [Type]
+          ConstListDerived1(
+            ConstantBool(
+             b
+             true
+            ) [ConstantBool]
+          ) [ConstListDerived1]
+        ) [ConstDeclObj]
+      ) [DeclarationConst]
+    ) [Declarations]
+    DeclarationEnum(
+      EnumDeclarationIntroduction(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumDeclarationList(
+          EnumDeclarationList(
+            EnumDeclarationListSingle(
+              EnumDeclaration(
+               NULA
+              ) [EnumDeclaration]
+            ) [EnumDeclarationListSingle]
+            EnumDeclarationWithValue(
+             TRI
+             4
+            ) [EnumDeclarationWithValue]
+          ) [EnumDeclarationList]
+          EnumDeclarationWithValue(
+           PET
+           5
+          ) [EnumDeclarationWithValue]
+        ) [EnumDeclarationList]
+      ) [EnumDeclarationIntroduction]
+    ) [DeclarationEnum]
+  ) [Declarations]
+  MethodDeclListDerived1(
+    MethodDerived2(
+      MethodDeclarationNoPars(
+        MethodVoidWithName(
+         main
+        ) [MethodVoidWithName]
+        VarDeclListDerived1(
+          VarDeclListDerived1(
+            VarDeclListDerived2(
+            ) [VarDeclListDerived2]
+            VarDeclaration(
+              Type(
+               bool
+              ) [Type]
+              VarListObjSecond(
+                Variable(
+                 ff
+                ) [Variable]
+              ) [VarListObjSecond]
+            ) [VarDeclaration]
+          ) [VarDeclListDerived1]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarListObjSecond(
+              Variable(
+               r
+              ) [Variable]
+            ) [VarListObjSecond]
+          ) [VarDeclaration]
+        ) [VarDeclListDerived1]
+        StatementListDerived2(
+          StatementListDerived2(
+            StatementListDerived2(
+              StatementListDerived1(
+                StmntDegisnator(
+                  DesignatorArrayInit(
+                    DesignatorBasic(
+                      DesignatorIdent(
+                       niz
+                      ) [DesignatorIdent]
+                    ) [DesignatorBasic]
+                    FactorArrayInit(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprPlus(
+                        Term(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                          TermListNone(
+                          ) [TermListNone]
+                        ) [Term]
+                        ExprListNone(
+                        ) [ExprListNone]
+                      ) [ExprPlus]
+                    ) [FactorArrayInit]
+                  ) [DesignatorArrayInit]
+                ) [StmntDegisnator]
+              ) [StatementListDerived1]
+              StmntDegisnator(
+                DesignatorStatementAssign(
+                  DesignatorBasicArray(
+                    DesignatorIdentArray(
+                      DesignatorIdent(
+                       niz
+                      ) [DesignatorIdent]
+                      ExprPlus(
+                        Term(
+                          FactorNumConst(
+                           0
+                          ) [FactorNumConst]
+                          TermListNone(
+                          ) [TermListNone]
+                        ) [Term]
+                        ExprListNone(
+                        ) [ExprListNone]
+                      ) [ExprPlus]
+                    ) [DesignatorIdentArray]
+                  ) [DesignatorBasicArray]
+                  ExprPlus(
+                    Term(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                      TermListNone(
+                      ) [TermListNone]
+                    ) [Term]
+                    ExprListNone(
+                    ) [ExprListNone]
+                  ) [ExprPlus]
+                ) [DesignatorStatementAssign]
+              ) [StmntDegisnator]
+            ) [StatementListDerived2]
+            StmtPrintDesignator(
+              DesignatorBasicArray(
+                DesignatorIdentArray(
+                  DesignatorIdent(
+                   niz
+                  ) [DesignatorIdent]
+                  ExprPlus(
+                    Term(
+                      FactorNumConst(
+                       0
+                      ) [FactorNumConst]
+                      TermListNone(
+                      ) [TermListNone]
+                    ) [Term]
+                    ExprListNone(
+                    ) [ExprListNone]
+                  ) [ExprPlus]
+                ) [DesignatorIdentArray]
+              ) [DesignatorBasicArray]
+            ) [StmtPrintDesignator]
+          ) [StatementListDerived2]
+          StmtPrintDesignator(
+            DesignatorBasic(
+              DesignatorIdent(
+               y
+              ) [DesignatorIdent]
+            ) [DesignatorBasic]
+          ) [StmtPrintDesignator]
+        ) [StatementListDerived2]
+      ) [MethodDeclarationNoPars]
+    ) [MethodDerived2]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:24:18,677 - ===================================
+INFO  21:24:18,682 - Deklarisana promenljiva x tipa 1
+INFO  21:24:18,682 - Deklarisana promenljiva y tipa 1
+INFO  21:24:18,682 - Deklarisana promenljiva p tipa 5
+INFO  21:24:18,682 - Deklarisana promenljiva c tipa 2
+INFO  21:24:18,682 - Deklarisan niz  niz tipa 1
+INFO  21:24:18,682 - Deklarisana konstanta a tipa 1 i vrednosti 5
+INFO  21:24:18,682 - Deklarisana konstanta f tipa 2 i vrednosti y
+INFO  21:24:18,682 - Deklarisana konstanta b tipa 5 i vrednosti 1
+INFO  21:24:18,682 - Deklarisana enum vrednost za Broj sa imenom NULA i vrednoscu 0
+INFO  21:24:18,683 - Deklarisana enum vrednost za Broj sa imenom TRI i vrednoscu 4
+INFO  21:24:18,683 - Deklarisana enum vrednost za Broj sa imenom PET i vrednoscu 5
+INFO  21:24:18,683 - Obradjuje se funkcija main na liniji 12
+INFO  21:24:18,683 - Deklarisana promenljiva ff tipa 5
+INFO  21:24:18,683 - Deklarisana promenljiva r tipa 1
+INFO  21:24:18,683 - Koristi se promenljiva niz kao degisnator na liniji 16
+INFO  21:24:18,683 - Koristi se promenljiva niz kao degisnator na liniji 17

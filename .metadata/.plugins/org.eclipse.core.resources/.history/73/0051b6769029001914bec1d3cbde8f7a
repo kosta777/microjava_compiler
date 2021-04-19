@@ -1,0 +1,224 @@
+INFO  21:07:00,768 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  21:07:00,792 - #2 program
+INFO  21:07:00,793 - #46 MJProgram
+INFO  21:07:00,793 - #46 int
+INFO  21:07:00,793 - #46 x
+INFO  21:07:00,794 - #38 ,
+INFO  21:07:00,794 - #46 y
+INFO  21:07:00,794 - #37 ;
+INFO  21:07:00,794 - #46 bool
+INFO  21:07:00,794 - #46 p
+INFO  21:07:00,795 - #37 ;
+INFO  21:07:00,795 - #46 char
+INFO  21:07:00,795 - #46 c
+INFO  21:07:00,795 - #37 ;
+INFO  21:07:00,795 - #8 const
+INFO  21:07:00,795 - #46 int
+INFO  21:07:00,795 - #46 a
+INFO  21:07:00,795 - #34 =
+INFO  21:07:00,795 - #18 5
+INFO  21:07:00,795 - #37 ;
+INFO  21:07:00,795 - #8 const
+INFO  21:07:00,795 - #46 char
+INFO  21:07:00,796 - #46 f
+INFO  21:07:00,796 - #34 =
+INFO  21:07:00,796 - #19 y
+INFO  21:07:00,796 - #37 ;
+INFO  21:07:00,796 - #42 {
+INFO  21:07:00,796 - #13 void
+INFO  21:07:00,796 - #46 main
+INFO  21:07:00,796 - #40 (
+INFO  21:07:00,796 - #41 )
+INFO  21:07:00,797 - #42 {
+INFO  21:07:00,797 - #46 p
+INFO  21:07:00,797 - #34 =
+INFO  21:07:00,797 - #20 true
+INFO  21:07:00,797 - #37 ;
+INFO  21:07:00,798 - #46 c
+INFO  21:07:00,798 - #34 =
+INFO  21:07:00,798 - #19 v
+INFO  21:07:00,798 - #37 ;
+INFO  21:07:00,798 - #11 print
+INFO  21:07:00,799 - #40 (
+INFO  21:07:00,799 - #18 1
+INFO  21:07:00,799 - #41 )
+INFO  21:07:00,799 - #37 ;
+INFO  21:07:00,799 - #11 print
+INFO  21:07:00,799 - #40 (
+INFO  21:07:00,799 - #18 2
+INFO  21:07:00,799 - #41 )
+INFO  21:07:00,799 - #37 ;
+INFO  21:07:00,799 - #43 }
+INFO  21:07:00,799 - #43 }
+INFO  21:07:00,800 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclarationVar(
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+                VarListObjFirst(
+                  VarListObjSecond(
+                    Variable(
+                     x
+                    ) [Variable]
+                  ) [VarListObjSecond]
+                  Variable(
+                   y
+                  ) [Variable]
+                ) [VarListObjFirst]
+              ) [VarDeclaration]
+            ) [DeclarationVar]
+          ) [Declarations]
+          DeclarationVar(
+            VarDeclaration(
+              Type(
+               bool
+              ) [Type]
+              VarListObjSecond(
+                Variable(
+                 p
+                ) [Variable]
+              ) [VarListObjSecond]
+            ) [VarDeclaration]
+          ) [DeclarationVar]
+        ) [Declarations]
+        DeclarationVar(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            VarListObjSecond(
+              Variable(
+               c
+              ) [Variable]
+            ) [VarListObjSecond]
+          ) [VarDeclaration]
+        ) [DeclarationVar]
+      ) [Declarations]
+      DeclarationConst(
+        ConstDeclObj(
+          Type(
+           int
+          ) [Type]
+          ConstListDerived1(
+            ConstantNum(
+             a
+             5
+            ) [ConstantNum]
+          ) [ConstListDerived1]
+        ) [ConstDeclObj]
+      ) [DeclarationConst]
+    ) [Declarations]
+    DeclarationConst(
+      ConstDeclObj(
+        Type(
+         char
+        ) [Type]
+        ConstListDerived1(
+          ConstantChar(
+           f
+           y
+          ) [ConstantChar]
+        ) [ConstListDerived1]
+      ) [ConstDeclObj]
+    ) [DeclarationConst]
+  ) [Declarations]
+  MethodDeclListDerived1(
+    MethodDeclDerived1(
+      MethodTypeDerived2(
+      ) [MethodTypeDerived2]
+     main
+      FormParsListDerived2(
+      ) [FormParsListDerived2]
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+      StatementListDerived2(
+        StatementListDerived2(
+          StatementListDerived2(
+            StatementListDerived1(
+              StmntDegisnator(
+                DesignatorStatementDerived1(
+                  DesignatorIdent(
+                   p
+                  ) [DesignatorIdent]
+                  ExprDerived1(
+                    TermDerived1(
+                      FactorBoolConst(
+                       true
+                      ) [FactorBoolConst]
+                      TermListDerived2(
+                      ) [TermListDerived2]
+                    ) [TermDerived1]
+                    ExprListDerived2(
+                    ) [ExprListDerived2]
+                  ) [ExprDerived1]
+                ) [DesignatorStatementDerived1]
+              ) [StmntDegisnator]
+            ) [StatementListDerived1]
+            StmntDegisnator(
+              DesignatorStatementDerived1(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                ExprDerived1(
+                  TermDerived1(
+                    FactorCharConst(
+                     v
+                    ) [FactorCharConst]
+                    TermListDerived2(
+                    ) [TermListDerived2]
+                  ) [TermDerived1]
+                  ExprListDerived2(
+                  ) [ExprListDerived2]
+                ) [ExprDerived1]
+              ) [DesignatorStatementDerived1]
+            ) [StmntDegisnator]
+          ) [StatementListDerived2]
+          StmntPrint(
+            ExprDerived1(
+              TermDerived1(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+                TermListDerived2(
+                ) [TermListDerived2]
+              ) [TermDerived1]
+              ExprListDerived2(
+              ) [ExprListDerived2]
+            ) [ExprDerived1]
+          ) [StmntPrint]
+        ) [StatementListDerived2]
+        StmntPrint(
+          ExprDerived1(
+            TermDerived1(
+              FactorNumConst(
+               2
+              ) [FactorNumConst]
+              TermListDerived2(
+              ) [TermListDerived2]
+            ) [TermDerived1]
+            ExprListDerived2(
+            ) [ExprListDerived2]
+          ) [ExprDerived1]
+        ) [StmntPrint]
+      ) [StatementListDerived2]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:07:00,801 - ===================================
+INFO  21:07:00,805 - Deklarisana promenljiva x tipa 1
+INFO  21:07:00,806 - Deklarisana promenljiva y tipa 1
+INFO  21:07:00,806 - Deklarisana promenljiva p tipa 5
+INFO  21:07:00,806 - Deklarisana promenljiva c tipa 2
+INFO  21:07:00,806 - Deklarisana konstanta a tipa 1 i vrednosti 5
+INFO  21:07:00,806 - Deklarisana konstanta f tipa 2 i vrednosti y

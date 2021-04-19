@@ -1,0 +1,14 @@
+INFO  17:13:17,987 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  17:13:18,020 - #2 program
+INFO  17:13:18,020 - #18 MJProgram
+INFO  17:13:18,020 - #18 int
+INFO  17:13:18,021 - #18 x
+INFO  17:13:18,021 - #22 +
+ERROR 17:13:18,021 - 
+Sintaksna greska na liniji 2
+INFO  17:13:18,021 - #39 ,
+INFO  17:13:18,022 - #18 y
+INFO  17:13:18,022 - #38 ;
+INFO  17:13:18,022 - #18 bool
+INFO  17:13:18,022 - #18 p
+INFO  17:13:18,022 - #38 ;

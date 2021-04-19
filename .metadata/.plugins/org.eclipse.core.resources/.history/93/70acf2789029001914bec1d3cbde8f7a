@@ -1,0 +1,72 @@
+INFO  21:15:39,721 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  21:15:39,745 - #2 program
+INFO  21:15:39,746 - #46 MJProgram
+INFO  21:15:39,746 - #42 {
+INFO  21:15:39,746 - #46 int
+INFO  21:15:39,746 - #46 x
+INFO  21:15:39,747 - #38 ,
+ERROR 21:15:39,747 - 
+Sintaksna greska na liniji 3
+INFO  21:15:39,747 - #46 y
+INFO  21:15:39,747 - #37 ;
+INFO  21:15:39,747 - #46 bool
+INFO  21:15:39,748 - #46 p
+INFO  21:15:39,748 - #37 ;
+ERROR 21:15:39,748 - Izvrsen oporavak do ; u liniji 2
+INFO  21:15:39,748 - #46 char
+INFO  21:15:39,748 - #46 c
+INFO  21:15:39,749 - #37 ;
+INFO  21:15:39,749 - #8 const
+INFO  21:15:39,749 - #46 int
+INFO  21:15:39,749 - #46 a
+INFO  21:15:39,749 - #34 =
+INFO  21:15:39,749 - #18 5
+INFO  21:15:39,749 - #37 ;
+INFO  21:15:39,749 - #8 const
+INFO  21:15:39,749 - #46 char
+INFO  21:15:39,749 - #46 f
+INFO  21:15:39,749 - #34 =
+INFO  21:15:39,750 - #19 y
+INFO  21:15:39,750 - #37 ;
+INFO  21:15:39,750 - #8 const
+INFO  21:15:39,750 - #46 bool
+INFO  21:15:39,750 - #46 b
+INFO  21:15:39,750 - #34 =
+INFO  21:15:39,750 - #20 true
+INFO  21:15:39,750 - #37 ;
+INFO  21:15:39,750 - #13 void
+ERROR 21:15:39,750 - 
+Sintaksna greska na liniji 11
+INFO  21:15:39,750 - #46 main
+INFO  21:15:39,750 - #40 (
+INFO  21:15:39,750 - #41 )
+INFO  21:15:39,750 - #46 bool
+INFO  21:15:39,750 - #46 ff
+INFO  21:15:39,750 - #34 =
+INFO  21:15:39,750 - #20 false
+INFO  21:15:39,750 - #37 ;
+INFO  21:15:39,750 - #42 {
+INFO  21:15:39,751 - #46 p
+INFO  21:15:39,751 - #34 =
+ERROR 21:15:39,751 - Izvrsen oporavak do ; u liniji 9
+ERROR 21:15:39,751 - 
+Sintaksna greska na liniji 14
+INFO  21:15:39,751 - #20 true
+INFO  21:15:39,751 - #37 ;
+INFO  21:15:39,751 - #46 c
+INFO  21:15:39,751 - #34 =
+INFO  21:15:39,751 - #19 v
+INFO  21:15:39,751 - #37 ;
+INFO  21:15:39,751 - #11 print
+INFO  21:15:39,751 - #40 (
+INFO  21:15:39,751 - #18 1
+INFO  21:15:39,751 - #41 )
+INFO  21:15:39,751 - #37 ;
+INFO  21:15:39,751 - #11 print
+INFO  21:15:39,751 - #40 (
+INFO  21:15:39,751 - #18 2
+INFO  21:15:39,751 - #41 )
+INFO  21:15:39,751 - #37 ;
+INFO  21:15:39,751 - #43 }
+INFO  21:15:39,751 - #43 }
+ERROR 21:15:39,752 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

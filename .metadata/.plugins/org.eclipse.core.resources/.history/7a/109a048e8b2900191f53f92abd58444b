@@ -1,0 +1,13 @@
+program test301
+
+
+int a[];
+	
+{
+	void main()	
+	{
+		a = new int[5];
+	}
+}
+
+

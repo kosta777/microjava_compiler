@@ -1,0 +1,78 @@
+// generated with ast extension for cup
+// version 0.8
+// 2/1/2019 14:34:3
+
+
+package src.rs.ac.bg.etf.pp1.ast;
+
+public class EnumListDerived1 extends EnumList {
+
+    private Enum Enum;
+    private EnumList EnumList;
+
+    public EnumListDerived1 (Enum Enum, EnumList EnumList) {
+        this.Enum=Enum;
+        if(Enum!=null) Enum.setParent(this);
+        this.EnumList=EnumList;
+        if(EnumList!=null) EnumList.setParent(this);
+    }
+
+    public Enum getEnum() {
+        return Enum;
+    }
+
+    public void setEnum(Enum Enum) {
+        this.Enum=Enum;
+    }
+
+    public EnumList getEnumList() {
+        return EnumList;
+    }
+
+    public void setEnumList(EnumList EnumList) {
+        this.EnumList=EnumList;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(Enum!=null) Enum.accept(visitor);
+        if(EnumList!=null) EnumList.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(Enum!=null) Enum.traverseTopDown(visitor);
+        if(EnumList!=null) EnumList.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(Enum!=null) Enum.traverseBottomUp(visitor);
+        if(EnumList!=null) EnumList.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("EnumListDerived1(\n");
+
+        if(Enum!=null)
+            buffer.append(Enum.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(EnumList!=null)
+            buffer.append(EnumList.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [EnumListDerived1]");
+        return buffer.toString();
+    }
+}

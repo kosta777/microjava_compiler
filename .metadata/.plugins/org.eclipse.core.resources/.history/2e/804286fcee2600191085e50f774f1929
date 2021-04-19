@@ -1,0 +1,91 @@
+// generated with ast extension for cup
+// version 0.8
+// 2/1/2019 14:32:13
+
+
+package src.rs.ac.bg.etf.pp1.ast;
+
+public abstract class VisitorAdaptor implements Visitor { 
+
+    public void visit(MethodDecl MethodDecl) { }
+    public void visit(MethodType MethodType) { }
+    public void visit(FormParsDecl FormParsDecl) { }
+    public void visit(Declaration Declaration) { }
+    public void visit(ClassDecl ClassDecl) { }
+    public void visit(Type Type) { }
+    public void visit(FormPars FormPars) { }
+    public void visit(InterfaceDecl InterfaceDecl) { }
+    public void visit(MethodDeclList MethodDeclList) { }
+    public void visit(DeclList DeclList) { }
+    public void visit(FormParsList FormParsList) { }
+    public void visit(MulopDerived2 MulopDerived2) { visit(); }
+    public void visit(MulopDerived1 MulopDerived1) { visit(); }
+    public void visit(Mulop Mulop) { visit(); }
+    public void visit(AddopDerived1 AddopDerived1) { visit(); }
+    public void visit(Addop Addop) { visit(); }
+    public void visit(DesignatorDerived2 DesignatorDerived2) { visit(); }
+    public void visit(DesignatorDerived1 DesignatorDerived1) { visit(); }
+    public void visit(Designator Designator) { visit(); }
+    public void visit(FactorDerived5 FactorDerived5) { visit(); }
+    public void visit(FactorDerived4 FactorDerived4) { visit(); }
+    public void visit(FactorDerived3 FactorDerived3) { visit(); }
+    public void visit(FactorDerived2 FactorDerived2) { visit(); }
+    public void visit(FactorDerived1 FactorDerived1) { visit(); }
+    public void visit(Factor Factor) { visit(); }
+    public void visit(TermListDerived1 TermListDerived1) { visit(); }
+    public void visit(TermList TermList) { visit(); }
+    public void visit(Term Term) { visit(); }
+    public void visit(ExprListDerived1 ExprListDerived1) { visit(); }
+    public void visit(ExprList ExprList) { visit(); }
+    public void visit(ExprDerived1 ExprDerived1) { visit(); }
+    public void visit(Expr Expr) { visit(); }
+    public void visit(DesignatorStatementDerived2 DesignatorStatementDerived2) { visit(); }
+    public void visit(DesignatorStatementDerived1 DesignatorStatementDerived1) { visit(); }
+    public void visit(DesignatorStatement DesignatorStatement) { visit(); }
+    public void visit(StatementListDerived3 StatementListDerived3) { visit(); }
+    public void visit(StatementListDerived2 StatementListDerived2) { visit(); }
+    public void visit(StatementListDerived1 StatementListDerived1) { visit(); }
+    public void visit(StatementList StatementList) { visit(); }
+    public void visit(TypeDerived1 TypeDerived1) { visit(); }
+    public void visit(FormParsDerived2 FormParsDerived2) { visit(); }
+    public void visit(FormParsDerived1 FormParsDerived1) { visit(); }
+    public void visit(FormParsDeclDerived2 FormParsDeclDerived2) { visit(); }
+    public void visit(FormParsDeclDerived1 FormParsDeclDerived1) { visit(); }
+    public void visit(FormParsListDerived2 FormParsListDerived2) { visit(); }
+    public void visit(FormParsListDerived1 FormParsListDerived1) { visit(); }
+    public void visit(MethodTypeDerived2 MethodTypeDerived2) { visit(); }
+    public void visit(MethodTypeDerived1 MethodTypeDerived1) { visit(); }
+    public void visit(MethodDeclDerived1 MethodDeclDerived1) { visit(); }
+    public void visit(MethodDeclListDerived2 MethodDeclListDerived2) { visit(); }
+    public void visit(MethodDeclListDerived1 MethodDeclListDerived1) { visit(); }
+    public void visit(VarDeclListDerived1 VarDeclListDerived1) { visit(); }
+    public void visit(VarDeclList VarDeclList) { visit(); }
+    public void visit(VarDerived1 VarDerived1) { visit(); }
+    public void visit(Var Var) { visit(); }
+    public void visit(VarListDerived1 VarListDerived1) { visit(); }
+    public void visit(VarList VarList) { visit(); }
+    public void visit(VarDecl VarDecl) { visit(); }
+    public void visit(EnumDerived1 EnumDerived1) { visit(); }
+    public void visit(Enum Enum) { visit(); }
+    public void visit(EnumListDerived1 EnumListDerived1) { visit(); }
+    public void visit(EnumList EnumList) { visit(); }
+    public void visit(EnumDecl EnumDecl) { visit(); }
+    public void visit(ConstValDerived2 ConstValDerived2) { visit(); }
+    public void visit(ConstValDerived1 ConstValDerived1) { visit(); }
+    public void visit(ConstVal ConstVal) { visit(); }
+    public void visit(Constant Constant) { visit(); }
+    public void visit(ConstListDerived1 ConstListDerived1) { visit(); }
+    public void visit(ConstList ConstList) { visit(); }
+    public void visit(ConstDecl ConstDecl) { visit(); }
+    public void visit(DeclarationDerived5 DeclarationDerived5) { visit(); }
+    public void visit(DeclarationDerived4 DeclarationDerived4) { visit(); }
+    public void visit(DeclarationDerived3 DeclarationDerived3) { visit(); }
+    public void visit(DeclarationDerived2 DeclarationDerived2) { visit(); }
+    public void visit(DeclarationDerived1 DeclarationDerived1) { visit(); }
+    public void visit(DeclListDerived1 DeclListDerived1) { visit(); }
+    public void visit(Declarations Declarations) { visit(); }
+    public void visit(Program Program) { visit(); }
+
+
+    public void visit() { }
+}

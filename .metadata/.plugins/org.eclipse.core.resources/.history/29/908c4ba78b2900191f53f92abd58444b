@@ -1,0 +1,20 @@
+program test301
+
+
+int a[];
+int b;
+{
+	void main()	
+	{
+		a = new int[5];
+		a[0] =5;
+		print(a[0]);
+		read(b);
+		read(a[0])
+		
+		print(b);
+		print(a[0]);
+	}
+}
+
+

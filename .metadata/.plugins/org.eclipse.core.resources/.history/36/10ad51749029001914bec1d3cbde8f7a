@@ -1,0 +1,39 @@
+INFO  22:09:54,986 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\test1.mj
+INFO  22:09:55,012 - #2 program
+INFO  22:09:55,012 - #46 test301
+INFO  22:09:55,012 - #46 int
+INFO  22:09:55,013 - #18 1
+ERROR 22:09:55,013 - 
+Sintaksna greska na liniji 4
+INFO  22:09:55,013 - #38 ,
+INFO  22:09:55,013 - #46 a
+INFO  22:09:55,013 - #38 ,
+INFO  22:09:55,014 - #46 b
+INFO  22:09:55,014 - #37 ;
+INFO  22:09:55,014 - #42 {
+INFO  22:09:55,014 - #13 void
+INFO  22:09:55,014 - #46 main
+ERROR 22:09:55,014 - Izvrsen oporavak do ; u liniji 4
+INFO  22:09:55,014 - #40 (
+INFO  22:09:55,015 - #41 )
+INFO  22:09:55,015 - #42 {
+INFO  22:09:55,015 - #46 a
+INFO  22:09:55,015 - #34 =
+INFO  22:09:55,016 - #18 5
+INFO  22:09:55,016 - #37 ;
+INFO  22:09:55,017 - #11 print
+INFO  22:09:55,017 - #40 (
+INFO  22:09:55,017 - #46 a
+INFO  22:09:55,017 - #41 )
+INFO  22:09:55,017 - #37 ;
+INFO  22:09:55,017 - #43 }
+INFO  22:09:55,017 - #43 }
+INFO  22:09:55,022 - =========================SEMANTICKA OBRADA============================
+ERROR 22:09:55,022 - Greska(0) Sintaksna greska.
+ERROR 22:09:55,022 - Greska(9) Promenljiva ne postoji.
+INFO  22:09:55,023 - Pretraga na  9(a), nadjeno Var noObj: notype, -1, -1 
+ERROR 22:09:55,023 - Greska(9) Neslaganje tipova prilikom dodele.
+ERROR 22:09:55,023 - Greska(10) Promenljiva ne postoji.
+INFO  22:09:55,023 - Pretraga na  10(a), nadjeno Var noObj: notype, -1, -1 
+ERROR 22:09:55,023 - Greska(10) Print komanda zahteva drugi tip.
+ERROR 22:09:55,023 - =========================GRESKA PRI PARSIRANJU============================

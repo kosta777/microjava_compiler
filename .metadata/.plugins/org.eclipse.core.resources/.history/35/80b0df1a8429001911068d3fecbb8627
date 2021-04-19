@@ -1,0 +1,19 @@
+program test301
+
+	enum Broj { NULA, JEDAN, PET=5, DESET=10}
+
+	const int jedan = 1;
+	const int pet = 5;
+
+
+	int ni2z;
+	int ni3z;
+	
+{
+	void main()	
+		int bodovi;
+		Broj nula, jedan;
+	{
+		ni2z = 5;
+	}
+}

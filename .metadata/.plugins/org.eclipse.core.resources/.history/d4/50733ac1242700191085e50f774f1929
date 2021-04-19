@@ -1,0 +1,58 @@
+// generated with ast extension for cup
+// version 0.8
+// 2/1/2019 20:53:44
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class ConstValBool extends ConstVal {
+
+    private Boolean boolVal;
+
+    public ConstValBool (Boolean boolVal) {
+        this.boolVal=boolVal;
+        if(boolVal!=null) boolVal.setParent(this);
+    }
+
+    public Boolean getBoolVal() {
+        return boolVal;
+    }
+
+    public void setBoolVal(Boolean boolVal) {
+        this.boolVal=boolVal;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(boolVal!=null) boolVal.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(boolVal!=null) boolVal.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(boolVal!=null) boolVal.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("ConstValBool(\n");
+
+        if(boolVal!=null)
+            buffer.append(boolVal.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [ConstValBool]");
+        return buffer.toString();
+    }
+}

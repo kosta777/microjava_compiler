@@ -1,0 +1,123 @@
+INFO  20:57:03,149 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  20:57:03,175 - #2 program
+INFO  20:57:03,175 - #46 test301
+INFO  20:57:03,176 - #6 enum
+INFO  20:57:03,176 - #46 Broj
+INFO  20:57:03,176 - #42 {
+INFO  20:57:03,177 - #46 NULA
+INFO  20:57:03,177 - #38 ,
+INFO  20:57:03,177 - #46 JEDAN
+INFO  20:57:03,177 - #38 ,
+INFO  20:57:03,177 - #46 PET
+INFO  20:57:03,177 - #34 =
+INFO  20:57:03,177 - #18 5
+INFO  20:57:03,177 - #38 ,
+INFO  20:57:03,177 - #46 DESET
+INFO  20:57:03,177 - #34 =
+INFO  20:57:03,177 - #18 10
+INFO  20:57:03,177 - #43 }
+INFO  20:57:03,178 - #8 const
+INFO  20:57:03,178 - #46 int
+INFO  20:57:03,178 - #46 jedan
+INFO  20:57:03,179 - #34 =
+INFO  20:57:03,179 - #18 1
+INFO  20:57:03,179 - #37 ;
+INFO  20:57:03,179 - #8 const
+INFO  20:57:03,179 - #46 int
+INFO  20:57:03,179 - #46 pet
+INFO  20:57:03,179 - #34 =
+INFO  20:57:03,179 - #18 5
+INFO  20:57:03,179 - #37 ;
+INFO  20:57:03,180 - #46 int
+INFO  20:57:03,180 - #46 niz
+INFO  20:57:03,180 - #44 [
+INFO  20:57:03,180 - #45 ]
+INFO  20:57:03,180 - #37 ;
+INFO  20:57:03,180 - #46 char
+INFO  20:57:03,180 - #46 nizch
+INFO  20:57:03,180 - #44 [
+INFO  20:57:03,180 - #45 ]
+INFO  20:57:03,180 - #37 ;
+INFO  20:57:03,180 - #46 int
+INFO  20:57:03,181 - #46 ni2z
+INFO  20:57:03,181 - #37 ;
+INFO  20:57:03,181 - #42 {
+INFO  20:57:03,181 - #13 void
+INFO  20:57:03,181 - #46 main
+INFO  20:57:03,181 - #40 (
+INFO  20:57:03,181 - #41 )
+INFO  20:57:03,181 - #46 int
+INFO  20:57:03,182 - #46 bodovi
+INFO  20:57:03,182 - #37 ;
+INFO  20:57:03,182 - #46 Broj
+INFO  20:57:03,182 - #46 nula
+INFO  20:57:03,182 - #38 ,
+INFO  20:57:03,182 - #46 jedan
+INFO  20:57:03,182 - #37 ;
+INFO  20:57:03,182 - #42 {
+INFO  20:57:03,182 - #46 nula
+INFO  20:57:03,182 - #34 =
+INFO  20:57:03,183 - #46 Broj
+INFO  20:57:03,183 - #39 .
+INFO  20:57:03,183 - #46 NULA
+INFO  20:57:03,183 - #37 ;
+INFO  20:57:03,185 - #46 jedan
+INFO  20:57:03,187 - #34 =
+INFO  20:57:03,187 - #46 Broj
+INFO  20:57:03,187 - #39 .
+INFO  20:57:03,187 - #46 JEDAN
+INFO  20:57:03,187 - #37 ;
+INFO  20:57:03,187 - #46 nizch
+INFO  20:57:03,187 - #34 =
+INFO  20:57:03,187 - #10 new
+INFO  20:57:03,187 - #46 char
+INFO  20:57:03,187 - #44 [
+INFO  20:57:03,187 - #18 3
+INFO  20:57:03,187 - #45 ]
+INFO  20:57:03,188 - #37 ;
+INFO  20:57:03,188 - #46 nizch
+INFO  20:57:03,188 - #44 [
+INFO  20:57:03,188 - #18 0
+INFO  20:57:03,189 - #45 ]
+INFO  20:57:03,189 - #34 =
+INFO  20:57:03,189 - #19 a
+INFO  20:57:03,189 - #37 ;
+INFO  20:57:03,189 - #46 nizch
+INFO  20:57:03,190 - #44 [
+INFO  20:57:03,190 - #46 jedan
+INFO  20:57:03,190 - #45 ]
+INFO  20:57:03,190 - #34 =
+INFO  20:57:03,190 - #19 b
+INFO  20:57:03,190 - #37 ;
+INFO  20:57:03,190 - #46 nizch
+INFO  20:57:03,190 - #44 [
+INFO  20:57:03,190 - #46 pet
+INFO  20:57:03,190 - #22 -
+INFO  20:57:03,190 - #18 3
+INFO  20:57:03,190 - #45 ]
+INFO  20:57:03,190 - #34 =
+INFO  20:57:03,190 - #19 c
+INFO  20:57:03,190 - #37 ;
+INFO  20:57:03,190 - #11 print
+INFO  20:57:03,190 - #40 (
+INFO  20:57:03,190 - #46 bodovi
+INFO  20:57:03,190 - #41 )
+INFO  20:57:03,191 - #37 ;
+INFO  20:57:03,191 - #43 }
+INFO  20:57:03,191 - #43 }
+INFO  20:57:03,195 - =========================SEMANTICKA OBRADA============================
+INFO  20:57:03,195 - Pretraga na  17(nula), nadjeno Var nula: enum, 1, 1 
+INFO  20:57:03,196 - Pretraga na  18(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  20:57:03,196 - Pretraga na  20(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:57:03,196 - Pretraga na  21(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:57:03,196 - Pretraga na  22(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:57:03,196 - Pretraga na  22(jedan), nadjeno Var jedan: enum, 2, 1 
+INFO  20:57:03,197 - Pretraga na  23(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  20:57:03,197 - Pretraga na  23(pet), nadjeno Con pet: int, 5, 0 
+INFO  20:57:03,197 - Pretraga na  25(bodovi), nadjeno Var bodovi: int, 0, 1 
+INFO  20:57:03,202 - =========================SINTAKSNA ANALIZA============================
+INFO  20:57:03,202 - Global variables:    1
+INFO  20:57:03,202 - Global constants:    2
+INFO  20:57:03,202 - Global arrays:    2
+INFO  20:57:03,202 - Locals in main:    3
+INFO  20:57:03,202 - Statements in main:    7

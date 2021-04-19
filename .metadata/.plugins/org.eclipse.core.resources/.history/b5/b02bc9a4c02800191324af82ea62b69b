@@ -1,0 +1,156 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, BREAK, CLASS, INTERFACE, ENUM, ELSE, CONST, IF, NEW, PRINT, READ, VOID, FOR, EXTENDS, CONTINUE, RETURN;
+terminal Integer NUMCONST;
+terminal Character CHARCONST;
+terminal String BOOLCONST;
+terminal PLUS, MINUS, MUL, DIV, MOD, EQUALDOUBLE, NOTEQUAL, GREATER, GREATEREQUAL, LESS, LESSEQUAL, ANDAND, OROR, EQUAL, PLUSPLUS, MINUSMINUS, SEMI, COMMA, DOT, LPAREN, RPAREN, LBRACE, RBRACE, LSQRBRAC, RSQRBRAC;
+terminal String IDENT;
+
+nonterminal  DeclList, Declaration ;
+nonterminal ConstDecl, ConstList, Constant ;
+nonterminal VarDecl, VarList, Var, VarDeclList ;
+nonterminal ClassDecl ;
+nonterminal EnumDeclIntro, EnumDeclList, EnumDecl ;
+nonterminal InterfaceDecl ;
+nonterminal MethodDecl, Method,  MethodDeclList, MethodDeclNoPars, FormParsList, FormPars, FormParsDecl;
+nonterminal StatementList, Statement ;
+nonterminal DesignatorStatement, Addop, Mulop ;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, MethodTypeName, DesignatorIdent, DesignatorIdentArray, DesignatorIdentArrayStart, DesignatorIdentDot;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj EnumName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, TermNeg,  Factor, Expr, ExprList, TermList, FactorArrayInit;
+
+Program ::= (Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+DeclList ::= (Declarations) DeclList Declaration | (NoDeclarations) /* epsilon */ ;
+Declaration ::= (DeclarationConst) ConstDecl | (DeclarationVar) VarDecl | (DeclarationEnum) EnumDeclIntro;
+
+//Constants
+//---------------------------------------------------------------------
+ConstDecl ::= (ConstDeclObj) CONST Type:constType ConstList SEMI ;
+
+ConstList ::= Constant | ConstList COMMA Constant ;
+
+Constant ::= (ConstantNum) IDENT:constName EQUAL NUMCONST:numVal 
+|
+(ConstantChar) IDENT:constName EQUAL CHARCONST:charVal
+|
+(ConstantBool)  IDENT:constName EQUAL BOOLCONST:boolVal;
+
+//EnumDecls
+//----------------------------------------------------------------------
+EnumDeclIntro ::= (EnumDeclarationIntroduction) ENUM EnumName LBRACE EnumDeclList RBRACE ;
+
+EnumName ::= (EnumName) IDENT:enumName;
+
+EnumDeclList ::= (EnumDeclarationListSingle) EnumDecl | (EnumDeclarationList) EnumDeclList COMMA EnumDecl ;
+
+EnumDecl ::= (EnumDeclaration) IDENT:enumName | (EnumDeclarationWithValue) IDENT:enumName EQUAL NUMCONST:enumValue ;
+
+//Global Vars
+//---------------------------------------------------------------------
+VarDecl ::= (VarDeclaration) Type:varType VarList:varList SEMI
+| error COMMA:l {:  parser.report_error("Izvrsen oporavak do , u liniji "+lleft, null); :} 
+| (ErrorVarDeclSEMI)  error SEMI:l {:  parser.report_error("Izvrsen oporavak do ; u liniji "+lleft, null);  :};
+
+VarList ::=  (VarListObjFirst) VarList:varList COMMA Var:var | (VarListObjSecond)  Var:var ;
+
+Var ::= (Variable) IDENT:varName | (VariableArray) IDENT:varNameArray LSQRBRAC RSQRBRAC ;
+
+VarDeclList ::=  VarDeclList VarDecl | /* epsilon */ ;
+
+//Method Decl
+//-----------------------------------------------------------------------
+MethodDeclList ::=  Method | MethodDeclList COMMA Method ;
+
+Method ::= MethodDecl | MethodDeclNoPars;
+
+MethodDecl ::= (MethodDeclaration) MethodTypeName LPAREN FormParsList:formPars RPAREN VarDeclList LBRACE StatementList RBRACE ;
+
+MethodDeclNoPars ::= (MethodDeclarationNoPars) MethodTypeName LPAREN RPAREN VarDeclList LBRACE StatementList RBRACE ;
+
+MethodTypeName ::= (MethodTypeWithName) Type:returnType IDENT:methName 
+| (MethodVoidWithName) VOID IDENT:methName;
+
+
+FormParsList ::= FormParsDecl ;
+
+FormParsDecl ::= FormPars | FormParsDecl COMMA FormPars ;
+
+FormPars ::= Type IDENT | Type IDENT LSQRBRAC RSQRBRAC ;
+
+//Type
+//------------------------------------------------------------------------
+Type ::= (Type) IDENT:type ;
+
+//StatementList
+//-----------------------------------------------------------------------
+
+StatementList ::= Statement | StatementList Statement;
+
+Statement ::=  (StmntDegisnator) DesignatorStatement SEMI | (StmntRead) READ LPAREN Designator:designator RPAREN SEMI | (StmntPrint) PRINT LPAREN Expr:expr RPAREN SEMI | (StmntPrintNumconst) PRINT LPAREN Expr COMMA NUMCONST RPAREN SEMI
+| (StatementError)Designator EQUAL error SEMI | (StmtPrintDesignator) PRINT LPAREN Designator:designator RPAREN SEMI ; 
+
+DesignatorStatement ::= (DesignatorStatementAssign) Designator:designator EQUAL Expr:expr | (DesignatorStatementPlusPlus) Designator PLUSPLUS | (DesignatorStatementMinusMinus) Designator MINUSMINUS | (DesignatorArrayInit) Designator:designator EQUAL FactorArrayInit:factor ;
+Expr ::=  (ExprPlus)Term:term ExprList:exprList | (ExprMinus) TermNeg:term  ExprList:exprList ;
+ExprList ::= (ExprListAddopAdd) PLUS Term:term ExprList:exprList |
+ (ExprListAddopSub) MINUS Term:term ExprList:exprList |
+  (ExprListNone) /* epsilon */ ;
+Term ::= (Term) Factor:factor TermList:termList ;
+TermNeg ::= (TermNeg) MINUS Factor:factor TermList:termList ;
+TermList ::= (TermListMulopMul) MUL Factor:factor |
+(TermListMulopDiv) DIV Factor:factor |
+(TermListMulopMod) MOD Factor:factor |
+ (TermListNone) /* epsilon */ ;
+Factor ::= (FactorNumConst) NUMCONST:val | (FactorCharConst) CHARCONST:val | (FactorExprInBrackets)LPAREN Expr:expr RPAREN | (FactorBoolConst) BOOLCONST:val | (FactorEnum) DesignatorIdentDot:designator ;
+FactorArrayInit ::= (FactorArrayInit) NEW Type:type LSQRBRAC Expr:expr RSQRBRAC;
+Designator ::= (DesignatorBasic) DesignatorIdent  | (DesignatorBasicArray) DesignatorIdentArray:designator ;
+DesignatorIdent ::= (DesignatorIdent)  IDENT:name;
+DesignatorIdentDot ::= (DesignatorIdentDot) Type:enumName DOT IDENT:name;
+DesignatorIdentArray ::= (DesignatorIdentArray) DesignatorIdentArrayStart:designator Expr:expr RSQRBRAC;
+DesignatorIdentArrayStart ::= (DesignatorIdentArrayStart) DesignatorIdent:designator LSQRBRAC;

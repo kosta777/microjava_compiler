@@ -1,0 +1,30 @@
+INFO  18:39:04,486 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program.mj
+INFO  18:39:04,508 - #2 program
+INFO  18:39:04,508 - #46 MJProgram
+INFO  18:39:04,508 - #46 int
+INFO  18:39:04,509 - #46 x
+INFO  18:39:04,509 - #38 ,
+INFO  18:39:04,510 - #46 y
+INFO  18:39:04,510 - #37 ;
+INFO  18:39:04,510 - #46 bool
+INFO  18:39:04,510 - #46 p
+INFO  18:39:04,510 - #37 ;
+INFO  18:39:04,510 - #46 char
+INFO  18:39:04,510 - #46 c
+INFO  18:39:04,510 - #37 ;
+INFO  18:39:04,511 - #42 {
+INFO  18:39:04,511 - #13 void
+INFO  18:39:04,511 - #46 main
+INFO  18:39:04,511 - #40 (
+INFO  18:39:04,511 - #41 )
+INFO  18:39:04,511 - #42 {
+INFO  18:39:04,512 - #46 p
+INFO  18:39:04,512 - #34 =
+INFO  18:39:04,512 - #21 +
+ERROR 18:39:04,512 - 
+Sintaksna greska na liniji 7
+INFO  18:39:04,512 - #20 true
+INFO  18:39:04,512 - #37 ;
+INFO  18:39:04,512 - #46 c
+INFO  18:39:04,513 - #34 =
+INFO  18:39:04,513 - #19 v

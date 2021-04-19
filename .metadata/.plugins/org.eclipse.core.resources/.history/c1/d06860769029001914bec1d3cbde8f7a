@@ -1,0 +1,84 @@
+INFO  21:02:19,804 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\javni_test.mj
+INFO  21:02:19,831 - #2 program
+INFO  21:02:19,831 - #46 test301
+INFO  21:02:19,831 - #6 enum
+INFO  21:02:19,831 - #46 Broj
+INFO  21:02:19,831 - #42 {
+INFO  21:02:19,832 - #46 NULA
+INFO  21:02:19,832 - #38 ,
+INFO  21:02:19,832 - #46 JEDAN
+INFO  21:02:19,832 - #38 ,
+INFO  21:02:19,832 - #46 PET
+INFO  21:02:19,832 - #34 =
+INFO  21:02:19,832 - #18 5
+INFO  21:02:19,832 - #38 ,
+INFO  21:02:19,832 - #46 DESET
+INFO  21:02:19,832 - #34 =
+INFO  21:02:19,832 - #18 10
+INFO  21:02:19,832 - #43 }
+INFO  21:02:19,832 - #8 const
+INFO  21:02:19,833 - #46 int
+INFO  21:02:19,833 - #46 jedan
+INFO  21:02:19,833 - #34 =
+INFO  21:02:19,833 - #18 1
+INFO  21:02:19,833 - #37 ;
+INFO  21:02:19,833 - #8 const
+INFO  21:02:19,834 - #46 int
+INFO  21:02:19,834 - #46 pet
+INFO  21:02:19,834 - #34 =
+INFO  21:02:19,834 - #18 5
+INFO  21:02:19,834 - #37 ;
+INFO  21:02:19,834 - #46 int
+INFO  21:02:19,834 - #46 niz
+INFO  21:02:19,834 - #44 [
+INFO  21:02:19,834 - #45 ]
+INFO  21:02:19,834 - #37 ;
+INFO  21:02:19,834 - #46 char
+INFO  21:02:19,834 - #46 nizch
+INFO  21:02:19,834 - #44 [
+INFO  21:02:19,834 - #45 ]
+INFO  21:02:19,834 - #37 ;
+INFO  21:02:19,834 - #46 int
+INFO  21:02:19,834 - #46 ni2z
+INFO  21:02:19,834 - #37 ;
+INFO  21:02:19,835 - #42 {
+INFO  21:02:19,835 - #13 void
+INFO  21:02:19,835 - #46 main
+INFO  21:02:19,835 - #40 (
+INFO  21:02:19,835 - #41 )
+INFO  21:02:19,835 - #46 int
+INFO  21:02:19,835 - #46 bodovi
+INFO  21:02:19,835 - #37 ;
+INFO  21:02:19,835 - #46 Broj
+INFO  21:02:19,835 - #46 nula
+INFO  21:02:19,835 - #38 ,
+INFO  21:02:19,835 - #46 jedan
+INFO  21:02:19,836 - #37 ;
+INFO  21:02:19,836 - #42 {
+INFO  21:02:19,836 - #46 niz
+INFO  21:02:19,836 - #34 =
+INFO  21:02:19,836 - #10 new
+INFO  21:02:19,836 - #46 int
+INFO  21:02:19,836 - #44 [
+INFO  21:02:19,836 - #18 3
+INFO  21:02:19,836 - #45 ]
+INFO  21:02:19,837 - #37 ;
+INFO  21:02:19,838 - #46 nizch
+INFO  21:02:19,838 - #34 =
+INFO  21:02:19,838 - #10 new
+INFO  21:02:19,838 - #46 char
+INFO  21:02:19,838 - #44 [
+INFO  21:02:19,838 - #18 3
+INFO  21:02:19,838 - #45 ]
+INFO  21:02:19,838 - #37 ;
+INFO  21:02:19,838 - #43 }
+INFO  21:02:19,838 - #43 }
+INFO  21:02:19,843 - =========================SEMANTICKA OBRADA============================
+INFO  21:02:19,844 - Pretraga na  17(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  21:02:19,844 - Pretraga na  18(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  21:02:19,852 - =========================SINTAKSNA ANALIZA============================
+INFO  21:02:19,852 - Global variables:    1
+INFO  21:02:19,852 - Global constants:    2
+INFO  21:02:19,852 - Global arrays:    2
+INFO  21:02:19,852 - Locals in main:    3
+INFO  21:02:19,852 - Statements in main:    2

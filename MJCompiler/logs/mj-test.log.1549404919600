@@ -1,0 +1,33 @@
+INFO  23:15:04,665 - Compiling source file: D:\Faks\PP1\Projekat\root\workspace\MJCompiler\test\program4.mj
+INFO  23:15:04,703 - =========================SEMANTICKA OBRADA============================
+INFO  23:15:04,703 - Pretraga na  18(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,703 - Pretraga na  19(l_nizch), nadjeno Var l_nizch: Arr of char, 1, 1 
+INFO  23:15:04,703 - Pretraga na  20(l_nizb), nadjeno Var l_nizb: Arr of , 2, 1 
+INFO  23:15:04,703 - Pretraga na  22(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:15:04,703 - Pretraga na  23(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  23(g_i), nadjeno Var g_i: int, 0, 0 
+INFO  23:15:04,704 - Pretraga na  25(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  27(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  28(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  29(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  30(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  31(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  32(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  33(l_nizi), nadjeno Var l_nizi: Arr of int, 0, 1 
+INFO  23:15:04,704 - Pretraga na  36(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:15:04,704 - Pretraga na  38(g_b), nadjeno Var g_b: bool, 2, 0 
+INFO  23:15:04,704 - Pretraga na  41(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:15:04,704 - Pretraga na  42(g_c), nadjeno Var g_c: char, 1, 0 
+INFO  23:15:04,704 - Pretraga na  45(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 23:15:04,704 - Greska(45) Nije pronadnjen tip E1 u tabeli simbola.
+ERROR 23:15:04,705 - Greska(45) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  23:15:04,705 - Pretraga na  46(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+ERROR 23:15:04,705 - Greska(46) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  23:15:04,705 - Pretraga na  48(l_nize1), nadjeno Var l_nize1: Arr of , 3, 1 
+INFO  23:15:04,705 - Pretraga na  50(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:15:04,705 - Greska(50) Nije pronadnjen tip E2 u tabeli simbola.
+ERROR 23:15:04,705 - Greska(50) Neslaganje tipova prilikom inicijalizacije niza.
+INFO  23:15:04,705 - Pretraga na  51(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:15:04,705 - Greska(51) Pristupanje nedeklarisanom tipu nabrajanja.
+INFO  23:15:04,705 - Pretraga na  53(l_nize2), nadjeno Var l_nize2: Arr of , 4, 1 
+ERROR 23:15:04,705 - =========================GRESKA PRI PARSIRANJU============================

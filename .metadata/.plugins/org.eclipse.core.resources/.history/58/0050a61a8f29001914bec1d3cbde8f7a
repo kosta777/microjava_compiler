@@ -1,0 +1,23 @@
+program test301
+
+const int n";
+
+int prom;
+
+int prom1_;
+
+int _prom1;
+
+int prom1_p;
+
+char c;
+
+{
+	void main(){
+		prom1_p = 1 + 1;
+		prom1_p = 1 - 1;
+		prom1_p = 1 * 1;
+		c = "a";
+		c = 'a';
+	}
+}
